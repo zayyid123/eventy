@@ -1,8 +1,11 @@
-import React from 'react'
+import React, { Fragment } from 'react'
+import logo from '../../assets/logo_eventy.png'
 
 const Navbar = () => {
   return (
-    <div>Navbar</div>
+    <Fragment>
+      <img src={logo} alt='logo' />
+    </Fragment>
   )
 }
 
