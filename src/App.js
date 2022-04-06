@@ -1,10 +1,15 @@
-import './App.css';
+import { Fragment } from "react";
+import Footer from "./component/footer";
+import Navbar from "./component/navbar";
+import Home from "./pages/home-page";
 
 function App() {
   return (
-    <div className="App">
-      <h1>hello</h1>
-    </div>
+    <Fragment>
+      <Navbar/>
+        <Home></Home>
+      <Footer/>
+    </Fragment>
   );
 }
 
