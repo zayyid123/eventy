@@ -10,7 +10,7 @@ import { EffectCards } from "swiper";
 const Home = () => {
   return (
     <Fragment>
-        <h1 data-aos="fade-up" >Home</h1>
+        <h1 className="text-3xl font-bold underline" data-aos="fade-up" >Home</h1>
         <Swiper
         effect={"cards"}
         grabCursor={true}
