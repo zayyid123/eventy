@@ -8,7 +8,11 @@ module.exports = {
           kuning: "#f8ce10",
           biruTua: "#054462",
           merah: "#dc3545",
-          transparent:'#ffffff00'
+          transparent: "#ffffff00",
+          biruMuda: "#53c5fc",
+          biruMudaOnChange: "#d4f1fe",
+          hoverBiruOnChange: "#c8ecfc",
+          hoverBiru: "#65cbfc",
         },
       },
     },
