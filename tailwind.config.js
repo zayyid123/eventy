@@ -8,6 +8,7 @@ module.exports = {
           kuning: "#f8ce10",
           biruTua: "#054462",
           merah: "#dc3545",
+          transparent:'#ffffff00'
         },
       },
     },

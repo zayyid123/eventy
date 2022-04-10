@@ -7,6 +7,7 @@
   height: 100%;
   align-items: center;
   transition: 0.5s;
+  position: relative;
 }
 #logo {
   width: 9rem;
@@ -20,4 +21,21 @@
 #header > a {
   display: flex;
   align-items: center;
+}
+#dropdown {
+  display: none;
+  transition: 0.5s;
+}
+#service {
+  display: inline-block;
+}
+#service:hover #dropdown {
+  display: block;
+}
+#panah {
+  transition: 0.5s;
+}
+#service:hover #panah {
+  transform: rotate(180deg);
+  transition: 0.5s;
 }
