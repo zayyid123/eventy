@@ -6,12 +6,13 @@ import "swiper/css";
 import "swiper/css/effect-cards";
 
 import { EffectCards } from "swiper";
+import HomeSection from '../../component/home-section';
 
 const Home = () => {
   return (
     <Fragment>
         <section className='home'>
-
+          <HomeSection/>
         </section>
 
         <section className='tentang_eventy'>
