@@ -7,6 +7,7 @@ import "swiper/css/effect-cards";
 
 import { EffectCards } from "swiper";
 import HomeSection from '../../component/home-section';
+import AboutSection from '../../component/about-section';
 
 const Home = () => {
   return (
@@ -15,8 +16,8 @@ const Home = () => {
           <HomeSection/>
         </section>
 
-        <section className='tentang_eventy'>
-
+        <section className='about_eventy'>
+          <AboutSection/>
         </section>
 
         <section className='virtual'>
