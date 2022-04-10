@@ -23,23 +23,29 @@ const Navbar = () => {
 
   return (
     <Fragment>
-      <div id="header" className="fixed flex justify-evenly py-5">
+      <div id="header" className="fixed w-full flex justify-evenly py-5 z-50">
         <img src={change ? logoBlue : logoWhite} alt="logo" id="logo" />
         <div className="flex w-1/3">
-          <ul id="navbar" className="flex h-full w-full justify-between items-center">
-            <li className={change ? "text-customColor-biruTua " : "text-white"}>
-              <a href="#home">Home</a>
-            </li>
-            <li className={change ? "text-customColor-biruTua " : "text-white"}>
-              <a href="#services">Services</a>
-            </li>
-            <li className={change ? "text-customColor-biruTua " : "text-white"}>
-              <a href="#portofolio">Portofolio</a>
-            </li>
+          <ul id="navbar" className="flex h-full w-full justify-evenly items-center">
+            <div className={change ? "border-b-2 border-white hover:border-customColor-biruTua" : "border-b-2 border-customColor-biru hover:border-white"}>
+              <a className={change ? "text-customColor-biruTua " : "text-white"} href="#home">
+                Home
+              </a>
+            </div>
+            <div className={change ? "border-b-2 border-white hover:border-customColor-biruTua" : "border-b-2 border-customColor-biru hover:border-white"}>
+              <a className={change ? "text-customColor-biruTua " : "text-white"} href="#services">
+                Services
+              </a>
+            </div>
+            <div className={change ? "border-b-2 border-white hover:border-customColor-biruTua" : "border-b-2 border-customColor-biru hover:border-white"}>
+              <a className={change ? "text-customColor-biruTua " : "text-white"} href="#portofolio">
+                Portofolio
+              </a>
+            </div>
           </ul>
         </div>
-        <button className=" px-8 bg-customColor-kuning rounded-xl hover:shadow-lg">
-          <p className="text-center text-customColor-biruTua font-bold text-lg">Request Penawaran</p>
+        <button className=" px-8 bg-customColor-kuning rounded-xl hover:shadow-xl">
+          <span className="text-center text-customColor-biruTua font-bold text-md">Request Penawaran</span>
         </button>
       </div>
     </Fragment>
