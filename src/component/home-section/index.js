@@ -7,11 +7,11 @@ import { EffectCards } from "swiper";
 
 const HomeSection = () => {
   return (
-    <div className='bg-customColor-biru text-white pt-[110px] pb-10'>
-        <div className='width-full max-w-5xl mx-auto'>
-            <div className='flex items-start flex-wrap '>
-                <div className='keterangan-home w-1/2 pt-10'>
-                    <h1 className='title-home mb-[20px] font-normal leading-none text-[3rem]'>Teknologi <br/> Event Management Berbasis Platform</h1>
+    <div className='w-full bg-customColor-biru text-white pt-[110px] pb-10'>
+        <div className='w-full max-w-5xl mx-auto'>
+            <div className='flex md:items-start flex-wrap md:justify-center'>
+                <div className='keterangan-home pl-5 md:pl-0 w-[80%] md:w-[65%] lg:w-[60%] xl:w-[45%] xl:min-w-[512px] pt-10'>
+                    <h1 className='title-home mb-[20px] font-normal leading-none text-[1.7rem] sm:text-[2.5rem] md:text-[3rem]'>Teknologi <br/> Event Management Berbasis Platform</h1>
                     <h5 className='mb-[20px] leading-none font-medium text-[1.5rem]'>Menyediakan layanan dan fasilitas untuk berbagai kebutuhan manajemen event secara virtual dan hybrid</h5>
                     <ul>
                         <li>Event Website & Platform</li>
@@ -21,7 +21,7 @@ const HomeSection = () => {
                         <li>Expo Hall & Sponsors</li>
                     </ul>
                 </div>
-                <div className='swipeer w-1/2 p-5'>
+                <div className='swipper w-[80%] md:w-[65%] lg:w-[60%] xl:w-[45%] p-5 '>
                     <Swiper
                         effect={"cards"}
                         grabCursor={true}
