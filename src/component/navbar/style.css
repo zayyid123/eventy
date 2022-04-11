@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "Qualy";
+  src: url("../../assets/font/Qualy.e683c4c.ttf");
+}
 #navbar > div {
   display: flex;
   font-size: large;
@@ -60,5 +64,4 @@
   -moz-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
-#child {
-}
+

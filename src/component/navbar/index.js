@@ -82,7 +82,7 @@ const Navbar = () => {
               <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
             </svg>
           </div>
-          <div id="childDrop" className={`transition duration-150 flex-col mb-5 justify-center items-center w-full ${change ? "bg-customColor-biruMudaOnChange " : "bg-customColor-biruMuda"} ${showChild ? "flex" : "hidden"} `}>
+          <div id="childDrop" className={`transition  flex-col mb-5 justify-center items-center w-full ${change ? "bg-customColor-biruMudaOnChange " : "bg-customColor-biruMuda"} ${showChild ? "flex" : "hidden"} `}>
             <a id="child" className={`w-full text-center text-md p-2 ${change ? "text-customColor-biruTua hover:bg-customColor-hoverBiruOnChange" : "text-white hover:bg-customColor-hoverBiru"} `} href="#">
               Hybrid event
             </a>

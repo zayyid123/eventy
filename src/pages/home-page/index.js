@@ -1,75 +1,63 @@
-import React, { Fragment } from 'react'
-import { Swiper, SwiperSlide } from "swiper/react"
-import "./style.css"
+import React, { Fragment } from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "./style.css";
 
 import "swiper/css";
 import "swiper/css/effect-cards";
 
 import { EffectCards } from "swiper";
-import HomeSection from '../../component/home-section';
-import AboutSection from '../../component/about-section';
-import VirtualOrHybird from '../../component/virtual-or-hybird-section';
-
+import HomeSection from "../../component/home-section";
+import AboutSection from "../../component/about-section";
+import VirtualOrHybird from "../../component/virtual-or-hybird-section";
+import SolusiEventy from "../../component/solusi-eventy-section";
 const Home = () => {
   return (
     <Fragment>
-        <section className='home'>
-          <HomeSection/>
-        </section>
+      <section className="home">
+        <HomeSection />
+      </section>
 
-        <section className='about_eventy'>
-          <AboutSection/>
-        </section>
+      <section className="about_eventy">
+        <AboutSection />
+      </section>
 
-        <section className='virtual_or_hybird'>
-          <VirtualOrHybird/>
-        </section>
+      <section className="virtual_or_hybird">
+        <VirtualOrHybird />
+      </section>
 
-        <section className='solusi_eventy'>
+      <section className="solusi_eventy">
+        <SolusiEventy />
+      </section>
 
-        </section>
+      <section className="pilihan_tipe"></section>
 
-        <section className='pilihan_tipe'>
+      <section className="kenapa_pilih"></section>
 
-        </section>
+      <section className="testimonial"></section>
 
-        <section className='kenapa_pilih'>
+      <section className="home_hybrid_event"></section>
 
-        </section>
+      <section className="hybrid_event"></section>
 
-        <section className='testimonial'>
+      <section className="detail_paket"></section>
 
-        </section>
+      <section className="Virtual_Event"></section>
 
-        <section className='home_hybrid_event'>
+      <section className="Pilihan_Tampilan"></section>
 
-        </section>
-        
-        <section className='hybrid_event'>
+      <section className="Expo_Hall"></section>
 
-        </section>
+      <section className="Virtual_Event"></section>
 
-        <section className='detail_paket'>
+      <section className="Detail_Paket"></section>
 
-        </section>
+      <section className="Broadcast"></section>
 
-        <section className='Virtual_Event'></section>
+      <section className="Detail_Paket"></section>
 
-        <section className='Pilihan_Tampilan'></section>
-
-        <section className='Expo_Hall'></section>
-
-        <section className='Virtual_Event'></section>
-
-        <section className='Detail_Paket'></section>
-
-        <section className='Broadcast'></section>
-
-        <section className='Detail_Paket'></section>
-
-        <section className='Yuk_Bergabung'></section>
+      <section className="Yuk_Bergabung"></section>
     </Fragment>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
