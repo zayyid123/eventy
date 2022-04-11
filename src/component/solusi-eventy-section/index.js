@@ -159,7 +159,7 @@ const SolusiEventy = () => {
   );
 };
 const style = {
-  btnActive: "text-[16px] px-4 py-[5px] bg-customColor-kuning font-bold rounded-lg m-1",
+  btnActive: "text-[16px] px-4 py-[5px] bg-customColor-kuning font-bold rounded-lg m-1 shadow-xl",
   btnNoActive: "text-[16px] px-4 py-[5px] text-gray-500 rounded-lg ",
 };
 export default SolusiEventy;

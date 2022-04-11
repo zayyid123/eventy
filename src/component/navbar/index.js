@@ -126,14 +126,14 @@ const Navbar = () => {
                 </svg>
               </div>
               <div id="dropdown" className="absolute inset-y-14 align-center shadow-xl ">
-                <div className={`relative flex flex-col py-2 px-2 w-40 justify-center items-center rounded-xl  shadow-xl ${change ? "bg-customColor-biru" : "bg-white"}`}>
-                  <a className={`text-md p-2 ${change ? "text-white" : "text-customColor-biruTua"}`} href="#">
+                <div className={`relative flex flex-col py-2  w-40 justify-center items-center rounded-xl  shadow-xl ${change ? "bg-customColor-biru" : "bg-white"}`}>
+                  <a className={`w-full text-center text-md p-2 ${change ? "text-white" : "text-customColor-biruTua"} hover:bg-customColor-biruMudaOnChange`} href="#">
                     Hybrid Event
                   </a>
-                  <a className={`text-md p-2 ${change ? "text-white" : "text-customColor-biruTua"}`} href="#">
+                  <a className={`w-full text-center text-md p-2 ${change ? "text-white" : "text-customColor-biruTua"} hover:bg-customColor-biruMudaOnChange`} href="#">
                     Virtual Event
                   </a>
-                  <a className={`text-md p-2 ${change ? "text-white" : "text-customColor-biruTua"}`} href="#">
+                  <a className={`w-full text-center text-md p-2 ${change ? "text-white" : "text-customColor-biruTua"} hover:bg-customColor-biruMudaOnChange  `} href="#">
                     Broadcast
                   </a>
                 </div>
