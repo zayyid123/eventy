@@ -8,6 +8,7 @@ import "swiper/css/effect-cards";
 import { EffectCards } from "swiper";
 import HomeSection from '../../component/home-section';
 import AboutSection from '../../component/about-section';
+import VirtualOrHybird from '../../component/virtual-or-hybird-section';
 
 const Home = () => {
   return (
@@ -20,8 +21,8 @@ const Home = () => {
           <AboutSection/>
         </section>
 
-        <section className='virtual'>
-
+        <section className='virtual_or_hybird'>
+          <VirtualOrHybird/>
         </section>
 
         <section className='solusi_eventy'>
