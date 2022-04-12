@@ -10,7 +10,11 @@ import HomeSection from "../../component/home-section";
 import AboutSection from "../../component/about-section";
 import VirtualOrHybird from "../../component/virtual-or-hybird-section";
 import SolusiEventy from "../../component/solusi-eventy-section";
+<<<<<<< HEAD
 import WhyChosen from "../../component/why-chosen-section";
+=======
+import PilihanTipe from "../../component/pilihan-tipe-section";
+>>>>>>> ecf669565d5d2db6d15b345c41d79fded995a25b
 const Home = () => {
   return (
     <Fragment>
@@ -31,7 +35,11 @@ const Home = () => {
       </section>
 
       <section className="pilihan_tipe">
+<<<<<<< HEAD
         <WhyChosen />
+=======
+        <PilihanTipe />
+>>>>>>> ecf669565d5d2db6d15b345c41d79fded995a25b
       </section>
 
       <section className="kenapa_pilih"></section>
