@@ -8,7 +8,7 @@ import solusi11 from "../../assets/icon-solusi/11solusi.svg";
 import solusi22 from "../../assets/icon-solusi/22solusi.svg";
 import solusi33 from "../../assets/icon-solusi/33solusi.svg";
 import solusi44 from "../../assets/icon-solusi/44solusi.svg";
-import solusi111 from "../../assets/icon-solusi/11solusi.svg";
+import solusi111 from "../../assets/icon-solusi/111solusi.svg";
 import "./style.css";
 const SolusiEventy = () => {
   console.log(solusi2);
@@ -96,12 +96,11 @@ const SolusiEventy = () => {
     setShow(data);
     setCard(state);
   };
-  console.log(show);
-  useEffect(() => {}, [card]);
+
   return (
     <Fragment>
-      <div className={`flex flex-col justify-center items-center py-[80px] bg-customColor-bgWhite`}>
-        <h1 id="title" className="text-[2rem] text-customColor-biruTua mb-[30px] text-center">
+      <div id="bg" className={`flex flex-col justify-center items-center py-[80px] bg-customColor-bgWhite`}>
+        <h1 id="title" className="text-[2rem] text-customColor-biruTua mb-[30px] text-center mt-[40px]">
           Solusi dari Eventy untuk Event Anda
         </h1>
         <div className="flex justify-center items-center ">
@@ -109,7 +108,7 @@ const SolusiEventy = () => {
             onClick={() => {
               changeShow("pra", praEvent);
             }}
-            className={`${show == "pra" ? style.btnActive : style.btnNoActive}`}
+            className={`${show == "pra" ? style.btnActive : style.btnNoActive} `}
           >
             Pra event
           </button>
@@ -133,13 +132,13 @@ const SolusiEventy = () => {
         <div id="cardParent" className="items-stretch flex w-full lg:flex-row justify-center items-center flex-wrap content-start   p-5">
           {card.map((data, index) => {
             return (
-              <div key={index} id="card" className=" self-auto flex flex-col lg:flex-row md:w-[30rem] bg-white rounded-xl shadow-xl mx-[9px] mb-[15px] ">
+              <div key={data.title} className="card self-auto flex flex-col lg:flex-row md:w-[30rem] bg-white rounded-xl shadow-xl mx-[9px] mb-[15px] ">
                 <div className=" flex-none  bg-customColor-biru  px-[20px] py-[25px] rounded-xl">
                   <div className="flex justify-center items-center">
                     <img src={`${data.img}`} className={`w-[80px] h-[80px] `} />
                   </div>
                 </div>
-                <div key={index} className="flex flex-col p-[25px] rounded-xl">
+                <div className="flex flex-col p-[25px] rounded-xl">
                   <h6 className={`text-[16px] font-bold text-customColor-biruTua mb-[10px]`}>{data.title}</h6>
                   {show == "pasca" && <h6 className={`text-[16px] font-bold text-customColor-biruTua mb-[10px] italic`}>{data.addons}</h6>}
                   <p className="text-customColor-biruTua">{data.description}</p>

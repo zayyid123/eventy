@@ -10,6 +10,7 @@ import HomeSection from "../../component/home-section";
 import AboutSection from "../../component/about-section";
 import VirtualOrHybird from "../../component/virtual-or-hybird-section";
 import SolusiEventy from "../../component/solusi-eventy-section";
+import WhyChosen from "../../component/why-chosen-section";
 const Home = () => {
   return (
     <Fragment>
@@ -29,7 +30,9 @@ const Home = () => {
         <SolusiEventy />
       </section>
 
-      <section className="pilihan_tipe"></section>
+      <section className="pilihan_tipe">
+        <WhyChosen />
+      </section>
 
       <section className="kenapa_pilih"></section>
 

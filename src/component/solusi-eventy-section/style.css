@@ -5,3 +5,21 @@
 #title {
   font-family: "Qualy", sans-serif;
 }
+#bg {
+  background-image: url("../../assets/background/bg1.png");
+  background-repeat: no-repeat, repeat;
+  background-color: #f5f9ff;
+  background-size: 20%;
+}
+.card {
+  animation: card 1s;
+  opacity: 1;
+}
+@keyframes card {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

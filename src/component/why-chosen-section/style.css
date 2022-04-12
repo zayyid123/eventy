@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "Qualy";
+  src: url("../../assets/font/Qualy.e683c4c.ttf");
+}
+#title {
+  font-family: "Qualy", sans-serif;
+}
+.step > li {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: 18px;
+  margin-bottom: 20px;
+  position: relative;
+}
+.step > li > svg {
+  margin-right: 5px;
+}
+.step p {
+  font-size: 16px;
+  color: #054462;
+}
+.step span {
+  font-weight: bold;
+}
+.lines {
+  z-index: -1;
+}
