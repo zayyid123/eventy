@@ -40,7 +40,7 @@ const PilihanTipe = () => {
     
   return (
     <div className='bg-customColor-biru text-white overflow-hidden '>
-        <div className='flex flex-col w-full max-w-5xl mx-auto lg:items-center lg:flex-row-reverse'>
+        <div className='flex flex-col w-full items-center max-w-5xl mx-auto lg:items-center lg:flex-row-reverse'>
             <div className='w-[80%] sm:w-[60%] mb-[10px] mt-[20px] lg:w-[33.3%] lg:mt-[10rem] lg:mb-[10rem] lg:ml-[2rem]'>
                 <h1 className='title-pilihan-tipe text-[2rem] mb-[20px] text-center lg:text-left'>Pilihan Tipe Event</h1>
                 <p className='text-center lg:text-left'>Lebih dari sekedar tampilan webinar biasa, Platform Eventy mampu mendukung pelaksanaan berbagai tipe event yang ingin Anda selenggarakan</p>
