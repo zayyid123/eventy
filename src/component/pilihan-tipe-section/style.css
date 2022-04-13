@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "Qualy";
+    src: url("../../assets/font/Qualy.e683c4c.ttf");
+  }
+  .title-pilihan-tipe {
+    font-family: "Qualy", sans-serif;
+  }
+
+  .sliderEffect{
+      height: 1950px;
+      animation: scroll 30s linear infinite;
+  }
+
+  .sliderEffect:hover{
+      animation-play-state: paused;
+  }
+
+  .animateScroll{
+      display: none;
+  }
+  
+@keyframes scroll {
+    0%{
+        transform: translateZ(0);
+    }
+    100%{
+        transform: translate3d(0,-975px,0);
+    }
+}
