@@ -54,7 +54,7 @@ const PilihanTipe = () => {
                             dataTipe.map((item, index) =>
                                 <div key={index+item.name} className='flex bg-white w-[305px] h-[305px] m-5 items-center justify-center flex-col rounded-[10px] exhibition' style={{margin: '0 10px 20px'}}>
                                     <div className='flex flex-col items-center text-customColor-biruTua text-center'>
-                                        <img className='w-[80px]' src={item.link} alt={item.name} />
+                                        <img className='w-[80%]' src={item.link} alt={item.name} />
                                         <h5 className='mt-[30px]' >Event {item.name}</h5>
                                     </div>
                                 </div>
