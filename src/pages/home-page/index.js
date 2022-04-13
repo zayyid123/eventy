@@ -12,6 +12,11 @@ import VirtualOrHybird from "../../component/virtual-or-hybird-section";
 import SolusiEventy from "../../component/solusi-eventy-section";
 import WhyChosen from "../../component/why-chosen-section";
 import PilihanTipe from "../../component/pilihan-tipe-section";
+import Testimonial from "../../component/testimonial";
+
+
+
+
 const Home = () => {
   return (
     <Fragment>
@@ -35,10 +40,13 @@ const Home = () => {
         <PilihanTipe />
       </section>
 
-      <section className="kenapa_pilih"></section>
-      <WhyChosen />
+      <section className="kenapa_pilih">
+        <WhyChosen />
+      </section>
 
-      <section className="testimonial"></section>
+      <section className="testimonial">
+        <Testimonial/>
+      </section>
 
       <section className="home_hybrid_event"></section>
 

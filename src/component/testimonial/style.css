@@ -1,0 +1,9 @@
+@font-face 
+    {
+        font-family: 'Qualy'; 
+        src: url('../../assets/font/Qualy.e683c4c.ttf');
+    }
+
+.testimonial-title{
+    font-family: 'Qualy', sans-serif;
+}
