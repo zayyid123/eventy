@@ -25,6 +25,7 @@ const HomeSection = () => {
                     <Swiper
                         effect={"cards"}
                         grabCursor={true}
+                        navigation={false}
                         modules={[EffectCards]}
                         className="mySwiper"
                     >

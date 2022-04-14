@@ -13,6 +13,7 @@ import SolusiEventy from "../../component/solusi-eventy-section";
 import WhyChosen from "../../component/why-chosen-section";
 import PilihanTipe from "../../component/pilihan-tipe-section";
 import Testimonial from "../../component/testimonial";
+import VirtualEvent from "../../component/virtual-event-section";
 
 
 
@@ -54,7 +55,9 @@ const Home = () => {
 
       <section className="detail_paket"></section>
 
-      <section className="Virtual_Event"></section>
+      <section className="Virtual_Event">
+        <VirtualEvent/>
+      </section>
 
       <section className="Pilihan_Tampilan"></section>
 
