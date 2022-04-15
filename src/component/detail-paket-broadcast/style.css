@@ -1,0 +1,7 @@
+@font-face {
+    font-family: "Qualy";
+    src: url("../../assets/font/Qualy.e683c4c.ttf");
+  }
+  .title-detail-broadcast {
+    font-family: "Qualy", sans-serif;
+  }

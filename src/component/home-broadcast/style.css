@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "Qualy";
+  src: url("../../assets/font/Qualy.e683c4c.ttf");
+}
+.title-broadcast {
+  font-family: "Qualy", sans-serif;
+}
+.bg-home-broadcast {
+  background-image: url("../../assets/background/bg2.png"), url("../../assets/background/bg2.png"), url("../../assets/background/bg7.png");
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-size: 17%, 17%, 30%;
+  background-position: 0% 0%, 100% 100%, 100% 0%;
+}

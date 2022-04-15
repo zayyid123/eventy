@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "Qualy";
+  src: url("../../assets/font/Qualy.e683c4c.ttf");
+}
+.title-detail-hybrid {
+  font-family: "Qualy", sans-serif;
+}
+.bg-detailHybrid {
+  background-image: url("../../assets/background/bg3.png");
+  background-repeat: no-repeat;
+  background-size: 20%;
+  background-position: 100% 100%;
+}

@@ -13,7 +13,7 @@ module.exports = {
           biruMudaOnChange: "#d4f1fe",
           hoverBiruOnChange: "#c8ecfc",
           hoverBiru: "#65cbfc",
-          bgWhite: "#f5f9ff",
+          bgWhite: "#f6faff",
         },
       },
     },

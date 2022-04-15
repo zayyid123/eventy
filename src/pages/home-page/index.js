@@ -16,6 +16,9 @@ import Testimonial from "../../component/testimonial";
 import VirtualEvent from "../../component/virtual-event-section";
 import HomeHybrid from "../../component/home-hybrid";
 import HybridEvent from "../../component/hybrid-event";
+import PaketHybrid from "../../component/detail-paket-hybrid";
+import HomeBroadcast from "../../component/home-broadcast";
+import DetailBroadcast from "../../component/detail-paket-broadcast";
 const Home = () => {
   return (
     <Fragment>
@@ -55,7 +58,9 @@ const Home = () => {
         <HybridEvent />
       </section>
 
-      <section className="detail_paket"></section>
+      <section className="detail_paket">
+        <PaketHybrid />
+      </section>
 
       <section className="Virtual_Event">
         <VirtualEvent />
@@ -69,9 +74,13 @@ const Home = () => {
 
       <section className="Detail_Paket"></section>
 
-      <section className="Broadcast"></section>
+      <section className="Broadcast">
+        <HomeBroadcast />
+      </section>
 
-      <section className="Detail_Paket"></section>
+      <section className="Detail_Paket">
+        <DetailBroadcast />
+      </section>
 
       <section className="Yuk_Bergabung"></section>
     </Fragment>

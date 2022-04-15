@@ -36,12 +36,11 @@ const VirtualEventComDetail = () => {
           </h1>
           <div className="flex justify-between xl:justify-center items-center">
             <div id="buttonHybridEvent" className="flex flex-col items-center w-full xl:w-[500px] justify-start  items-stretch xl:mr-0">
-             
               <button
                 onClick={() => {
                   changeImage(satu, "satu");
                 }}
-                className={`relative flex flex-row justify-between items-center text-left text-[16px] px-[20px] py-[15px] rounded-xl ${
+                className={`relative flex flex-row justify-between items-center text-left text-left text-[16px] px-[20px] py-[15px] rounded-xl ${
                   active === "satu" ? "bg-customColor-biru text-white font-semibold shadow-lg shadow-customColor-biru onchange" : "bg-customColor-transparent text-gray-400"
                 }`}
               >
@@ -63,7 +62,7 @@ const VirtualEventComDetail = () => {
                 onClick={() => {
                   changeImage(dua, "dua");
                 }}
-                className={`flex flex-row justify-between items-center  text-[16px] px-[20px] py-[15px] rounded-xl ${
+                className={`flex flex-row justify-between items-center text-left text-[16px] px-[20px] py-[15px] rounded-xl ${
                   active === "dua" ? "bg-customColor-biru text-white font-semibold shadow-lg shadow-customColor-biru onchange" : "bg-customColor-transparent text-gray-400"
                 }`}
               >
@@ -85,7 +84,7 @@ const VirtualEventComDetail = () => {
                 onClick={() => {
                   changeImage(tiga, "tiga");
                 }}
-                className={`flex flex-row justify-between items-center  text-[16px] px-[20px] py-[15px] rounded-xl ${
+                className={`flex flex-row justify-between items-center text-left text-[16px] px-[20px] py-[15px] rounded-xl ${
                   active === "tiga" ? "bg-customColor-biru text-white font-semibold shadow-lg shadow-customColor-biru onchange" : "bg-customColor-transparent text-gray-400"
                 }`}
               >
@@ -107,7 +106,7 @@ const VirtualEventComDetail = () => {
                 onClick={() => {
                   changeImage(empat, "empat");
                 }}
-                className={`flex flex-row justify-between items-center  text-[16px] px-[20px] py-[15px] rounded-xl ${
+                className={`flex flex-row justify-between items-center text-left text-[16px] px-[20px] py-[15px] rounded-xl ${
                   active === "empat" ? "bg-customColor-biru text-white font-semibold shadow-lg shadow-customColor-biru onchange" : "bg-customColor-transparent text-gray-400"
                 }`}
               >

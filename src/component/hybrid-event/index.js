@@ -30,13 +30,12 @@ const HybridEvent = () => {
   return (
     <Fragment>
       <div className="flex flex-col  pt-[120px] justify-center items-center">
-        <div className="w-[75%] flex flex-col ">
+        <div id="hybridAcordion" className="w-[75%] flex flex-col ">
           <h1 id="title" className="text-[36px] mb-[30px]">
             Hybrid Event
           </h1>
           <div className="flex justify-between xl:justify-center items-center">
             <div id="buttonHybridEvent" className="flex flex-col items-center w-full xl:w-[500px] justify-start  items-stretch xl:mr-0">
-             
               <button
                 onClick={() => {
                   changeImage(satu, "satu");
@@ -63,7 +62,7 @@ const HybridEvent = () => {
                 onClick={() => {
                   changeImage(dua, "dua");
                 }}
-                className={`flex flex-row justify-between items-center  text-[16px] px-[20px] py-[15px] rounded-xl ${
+                className={`flex flex-row justify-between items-center text-left text-[16px] px-[20px] py-[15px] rounded-xl ${
                   active === "dua" ? "bg-customColor-biru text-white font-semibold shadow-lg shadow-customColor-biru onchange" : "bg-customColor-transparent text-gray-400"
                 }`}
               >
@@ -85,7 +84,7 @@ const HybridEvent = () => {
                 onClick={() => {
                   changeImage(tiga, "tiga");
                 }}
-                className={`flex flex-row justify-between items-center  text-[16px] px-[20px] py-[15px] rounded-xl ${
+                className={`flex flex-row justify-between items-center text-left  text-[16px] px-[20px] py-[15px] rounded-xl ${
                   active === "tiga" ? "bg-customColor-biru text-white font-semibold shadow-lg shadow-customColor-biru onchange" : "bg-customColor-transparent text-gray-400"
                 }`}
               >
@@ -107,7 +106,7 @@ const HybridEvent = () => {
                 onClick={() => {
                   changeImage(empat, "empat");
                 }}
-                className={`flex flex-row justify-between items-center  text-[16px] px-[20px] py-[15px] rounded-xl ${
+                className={`flex flex-row justify-between items-center text-left  text-[16px] px-[20px] py-[15px] rounded-xl ${
                   active === "empat" ? "bg-customColor-biru text-white font-semibold shadow-lg shadow-customColor-biru onchange" : "bg-customColor-transparent text-gray-400"
                 }`}
               >
