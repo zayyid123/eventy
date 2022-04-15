@@ -5,10 +5,10 @@ import Imgs from "../../assets/content/checklist.svg";
 const WhyChosen = () => {
   return (
     <div id="bgPilih" className="flex flex-col justify-center items-center ">
-      <h1 id="title" className="text-[2rem] text-customColor-biruTua mb-[30px] text-center mt-[40px]">
+      <h1 id="title" className="text-[2rem] text-customColor-biruTua mb-[30px] text-center mt-[100px] text-center">
         Kenapa Pilih Platform Eventy
       </h1>
-      <div className="flex md:flex-row flex-col justify-center items-center">
+      <div className="flex md:flex-row flex-col justify-center items-center mb-[100px]">
         <div className="p-5">
           <img src={Img} className="w-[30rem] md:mr-10 mr-0" />
         </div>
@@ -31,6 +31,17 @@ const WhyChosen = () => {
               </div>
               <p className="w-[90%] ml-[5px]">
                 Dapat diakses dari <span>berbagai perangkat</span>{" "}
+              </p>
+              <div className="absolute flex lines w-[20px] h-full justify-center items-center">
+                <div className=" w-[2px] h-[180%] bg-customColor-kuning"></div>
+              </div>
+            </li>
+            <li>
+              <div className="w-[20px] mt-1 flex items-start justify-center">
+                <img src={Imgs} height="14px" width="14px" />
+              </div>
+              <p className="w-[90%] ml-[5px]">
+                Dikerjakan oleh <span>profesional</span>{" "}
               </p>
               <div className="absolute flex lines w-[20px] h-full justify-center items-center">
                 <div className=" w-[2px] h-[180%] bg-customColor-kuning"></div>

@@ -14,10 +14,8 @@ import WhyChosen from "../../component/why-chosen-section";
 import PilihanTipe from "../../component/pilihan-tipe-section";
 import Testimonial from "../../component/testimonial";
 import VirtualEvent from "../../component/virtual-event-section";
-
-
-
-
+import HomeHybrid from "../../component/home-hybrid";
+import HybridEvent from "../../component/hybrid-event";
 const Home = () => {
   return (
     <Fragment>
@@ -46,17 +44,21 @@ const Home = () => {
       </section>
 
       <section className="testimonial">
-        <Testimonial/>
+        <Testimonial />
       </section>
 
-      <section className="home_hybrid_event"></section>
+      <section className="home_hybrid_event">
+        <HomeHybrid />
+      </section>
 
-      <section className="hybrid_event"></section>
+      <section className="hybrid_event">
+        <HybridEvent />
+      </section>
 
       <section className="detail_paket"></section>
 
       <section className="Virtual_Event">
-        <VirtualEvent/>
+        <VirtualEvent />
       </section>
 
       <section className="Pilihan_Tampilan"></section>

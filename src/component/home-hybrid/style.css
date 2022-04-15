@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "Qualy";
+  src: url("../../assets/font/Qualy.e683c4c.ttf");
+}
+#title {
+  font-family: "Qualy", sans-serif;
+}
+.bg-home-hybrid {
+  background-image: url("../../assets/background/bg5.png"), url("../../assets/background/bg7.png");
+  background-repeat: no-repeat, no-repeat;
+  background-size: 18%, 40%;
+  background-position: 0px 0px, 100% 0%;
+}
+@media (max-width: 800px) {
+  .bg-home-hybrid {
+    background-image: url("../../assets/background/bg6.png"), url("../../assets/background/bg4.png");
+    background-repeat: no-repeat, no-repeat;
+    background-size: 18%, 50%;
+    background-position: 0% 100%, 0% 100%;
+  }
+}
