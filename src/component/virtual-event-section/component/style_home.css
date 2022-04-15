@@ -9,3 +9,44 @@
     font-family: 'Qualy', sans-serif;
 }
 
+.swiper-button-prev::after{
+    display: none;
+}
+
+.swiper-button-next::after{
+    display: none;
+}
+
+.my-custom-pagination-div .swiper-pagination-bullet{
+    background-color: #fff;
+    opacity: .5;
+}
+
+.my-custom-pagination-div .swiper-pagination-bullet-active{
+    opacity: 1;
+}
+
+.myTable {
+    box-shadow: 2px 2px 54px -6px rgb(191 219 255 / 50%);
+}
+
+.bg-home-ve {
+    background-image: url("../../../assets/background/bg5.png"), url("../../../assets/background/bg4.png");
+    background-repeat: no-repeat, no-repeat;
+    background-size: 18%, 40%;
+    background-position: 0px 0px, 0% 100%;
+  }
+
+  .bg-expo-ve {
+    background-image: url("../../../assets/background/bg5.png"), url("../../../assets/background/bg7.png");
+    background-repeat: no-repeat, no-repeat;
+    background-size: 18%, 40%;
+    background-position: 0px 0px, 100% 0%;
+  }
+
+  .bg-detail-ve {
+    background-image: url("../../../assets/background/bg3.png");
+    background-repeat: no-repeat;
+    background-size: 23%;
+    background-position: 100% 100%;
+  }

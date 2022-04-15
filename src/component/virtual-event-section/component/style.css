@@ -1,0 +1,33 @@
+#buttonHybridEvent {
+  transition: 0.5s;
+}
+.onchange {
+  animation: onchange 1s;
+  opacity: 1;
+}
+.hybridTrans {
+  transition: 0.5s;
+}
+.hybridDown {
+  animation: hybridDown 0.5s;
+}
+@keyframes hybridDown {
+  form {
+    height: 0%;
+  }
+  to {
+    height: 100%;
+  }
+}
+.panahHybrid {
+  transition: 0.5s;
+}
+
+@keyframes onchange {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
