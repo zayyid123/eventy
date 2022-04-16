@@ -34,7 +34,7 @@ const VirtualEventComDetail = () => {
           <h1 id="title" className="text-[36px] mb-[30px] text-black">
             Virtual Event
           </h1>
-          <div className="flex justify-between xl:justify-center items-center">
+          <div data-aos="fade-up" data-aos-duration="1000" className="flex justify-between xl:justify-center items-center">
             <div id="buttonHybridEvent" className="flex flex-col items-center w-full xl:w-[500px] justify-start  items-stretch xl:mr-0">
               <button
                 onClick={() => {

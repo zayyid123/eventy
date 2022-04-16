@@ -101,7 +101,7 @@ const VirtualEventHome = () => {
   return (
     <div className='bg-home-ve bg-customColor-biru text-white '>
       <div className='max-w-5xl mx-auto text-center pb-9'>
-        <div className='flex flex-col'>
+        <div data-aos="fade-up" data-aos-duration="1000" className='flex flex-col'>
           {/* first */}
           <div className='max-w-[850px] mx-auto'>
             <h1 className='ve-home-title mt-[50px] mb-[30px] font-bold leading-none text-[3rem]'>Virtual Event</h1>

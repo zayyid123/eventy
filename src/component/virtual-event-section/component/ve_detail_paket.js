@@ -152,12 +152,12 @@ const VirtualEventDetailPaket = () => {
       <VirtualEventComDetail/>
       <br/>
       <div className='max-w-5xl mx-auto'>
-        <div className='text-center max-w-[700px] mx-auto'>
+        <div data-aos="fade-up" data-aos-duration="1000" className='text-center max-w-[700px] mx-auto'>
           <h1 className='ve-home-title mt-[50px] mb-[30px] font-bold leading-none text-[2.2rem]'>Detail Paket</h1>
           <h5 className='mb-[50px] font-normal leading-normal text-[1.1rem]'>Pilihan - pilihan menu dan fitur pada platform Eventy yang bisa Anda pilih sesuai kebutuhan dan rencana event Anda</h5>
         </div>
         <div className='max-w-[1100px] mx-auto'>
-          <table className='hidden lg:block m-[-4px] myTable rounded-bl-lg rounded-br-lg' >
+          <table data-aos="zoom-in" data-aos-duration="1000" className='hidden lg:block m-[-4px] myTable rounded-bl-lg rounded-br-lg' >
             <thead>
               <tr className='text-white'>
                 <th className='px-[110px] py-5 bg-customColor-biru rounded-tl-lg'>Servis</th>
@@ -218,7 +218,7 @@ const VirtualEventDetailPaket = () => {
           </table>
 
           {/* mobile */}
-          <div className='lg:hidden flex justify-center flex-wrap'>
+          <div data-aos="fade-up" data-aos-duration="1000" className='lg:hidden flex justify-center flex-wrap'>
             <button 
               className={`${btn === "Eksklusif" ? style.btnActive : style.btnNoActive}`}
               onClick={() => {setbtn('Eksklusif')}}
@@ -254,7 +254,7 @@ const VirtualEventDetailPaket = () => {
           <br/>
 
           <div className='lg:hidden flex justify-center'>
-            <table className='myTable w-[90%]'>
+            <table data-aos="zoom-in" data-aos-duration="1000" className='myTable w-[90%]'>
               <thead>
                 <tr className='text-white'>
                   <td className='text-center py-5 bg-customColor-biru rounded-tl-lg' >Servis</td>
@@ -324,12 +324,12 @@ const VirtualEventDetailPaket = () => {
           </div>
 
           <br/>
-          <div className='w-[90%] lg:w-[100%] mx-auto text-center'>
+          <div data-aos="zoom-in" data-aos-duration="1000" className='w-[90%] lg:w-[100%] mx-auto text-center'>
             <h1 className='shadow-[2px 18px 54px -6px rgb(191 219 255 / 50%)] py-3 bg-[#cb3838] text-white rounded-[10px]'>Opsional pada masing-masing package hanya bisa pilih salah satu Servis saja</h1>
           </div>
 
           <br/><br/><br/>
-          <div className='w-[240px] mx-auto'>
+          <div data-aos="fade-up" data-aos-duration="1000" className='w-[240px] mx-auto'>
             <button className='bg-customColor-kuning rounded-xl hover:shadow-xl items-center'>
               <h1 className='px-7 py-3 text-center text-customColor-biruTua font-bold text-md'>Lihat Penawaran Harga</h1>
             </button>
