@@ -1,6 +1,6 @@
 import React, { Fragment, useState, useEffect } from "react";
-import logoWhite from "../../assets/logo/eventy_logo_white.png";
-import logoBlue from "../../assets/logo/eventy_logo_blue.png";
+import logoWhite from "../../assets/logo/Asset 4.png";
+import logoBlue from "../../assets/logo/Asset 3.png";
 import "./style.css";
 import AOS from "aos";
 const Navbar = () => {
