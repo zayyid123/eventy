@@ -25,3 +25,10 @@
 .title-home{
     font-family: 'Qualy', sans-serif;
 }
+
+.bg-home-eventy {
+    background-image: url("../../assets/background/bg4.png");
+    background-repeat: no-repeat;
+    background-size: 20%;
+    background-position: 0px 100%;
+  }
