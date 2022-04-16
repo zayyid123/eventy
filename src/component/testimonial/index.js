@@ -45,9 +45,9 @@ const Testimonial = () => {
     <div className='bg-customColor-biru'>
         <div className='flex flex-col items-center justify-center max-w-5xl mx-auto pb-10'>
             <div className='text-center'>
-                <h1 className='testimonial-title mb-[80px] mt-[80px] text-white font-semibold leading-none text-[2rem]'>Testimonial Customer Eventy</h1>
+                <h1 data-aos="fade-up" className='testimonial-title mb-[80px] mt-[80px] text-white font-semibold leading-none text-[2rem]'>Testimonial Customer Eventy</h1>
             </div>
-            <div className='w-[300px] sm:w-[500px] md:w-[600px] lg:w-[800px] text-customColor-biruTua'>
+            <div data-aos="fade-up" className='w-[300px] sm:w-[500px] md:w-[600px] lg:w-[800px] text-customColor-biruTua'>
                 <Swiper
                     direction={"vertical"}
                     pagination={{

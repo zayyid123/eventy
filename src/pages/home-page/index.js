@@ -46,10 +46,6 @@ const Home = () => {
         <WhyChosen />
       </section>
 
-      <section className="testimonial">
-        <Testimonial />
-      </section>
-
       <section className="home_hybrid_event">
         <HomeHybrid />
       </section>
@@ -80,6 +76,10 @@ const Home = () => {
 
       <section className="Detail_Paket">
         <DetailBroadcast />
+      </section>
+
+      <section className="testimonial">
+        <Testimonial />
       </section>
 
       <section className="Yuk_Bergabung"></section>
