@@ -7,12 +7,12 @@ const paketHybrid = () => {
   return (
     <Fragment>
       <div className="  bg-detailHybrid w-full items-center flex py-[100px] flex-col bg-customColor-bgWhite">
-        <div className=" items-center flex flex-col mb-[60px]">
+        <div data-aos="fade-up" data-aos-duration="1000" className=" items-center flex flex-col mb-[60px]">
           <h1 className="title-detail-hybrid text-customColor-biruTua text-[36px]  mb-[30px]">Detail Paket</h1>
           <p className="text-[18px] font-medium text-customColor-biruTua text-center">Untuk mendukung pelaksanaan hybrid event, Evorty menyediakan servis sebagai berikut:</p>
         </div>
         <div className="flex w-full md:items-stretch items-center md:flex-row flex-col justify-center md:items-center">
-          <div className="flex flex-col p-[30px] bg-white w-[90%] md:w-72 mx-3 mb-[20px] rounded-xl shadow-lg">
+          <div data-aos="zoom-in" data-aos-duration="1000" className="flex flex-col p-[30px] bg-white w-[90%] md:w-72 mx-3 mb-[20px] rounded-xl shadow-lg">
             <div className="flex mb-[20px]">
               <img src={img1} className="h-[36px] mr-[15px]" />
               <span className="text-[18px] font-bold text-customColor-biruTua">Package Exclusive Platform Virtual Event</span>
@@ -28,7 +28,7 @@ const paketHybrid = () => {
             </ul>
           </div>
 
-          <div className="flex flex-col p-[30px] bg-white w-[90%] md:w-72 mx-3 mb-[20px] rounded-xl shadow-lg">
+          <div data-aos="zoom-in" data-aos-duration="1000" className="flex flex-col p-[30px] bg-white w-[90%] md:w-72 mx-3 mb-[20px] rounded-xl shadow-lg">
             <div className="flex mb-[20px]">
               <img src={img2} className="h-[36px] mr-[15px]" />
               <span className="text-[18px] font-bold text-customColor-biruTua">Broadcast Package / day max 6 jam</span>
@@ -44,7 +44,7 @@ const paketHybrid = () => {
             </ul>
           </div>
 
-          <div className="flex flex-col p-[30px] bg-white w-[90%] md:w-72 mx-3 mb-[20px] rounded-xl shadow-lg">
+          <div data-aos="zoom-in" data-aos-duration="1000" className="flex flex-col p-[30px] bg-white w-[90%] md:w-72 mx-3 mb-[20px] rounded-xl shadow-lg">
             <div className="flex mb-[20px]">
               <img src={img3} className="h-[36px] mr-[15px]" />
               <span className="text-[18px] font-bold text-customColor-biruTua">Package Basic Streaming Equipments/ day</span>
