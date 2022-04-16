@@ -58,7 +58,7 @@ const Navbar = () => {
       <div id="burgerDrop" className={`md:hidden w-full z-50 fixed justify-between  md:justify-center itemns-center ${show ? "translate-y-16" : "-translate-y-full"}`}>
         <div id="parentBurger" className={` w-full  flex flex-col justify-center items-center ${change ? "bg-white" : "bg-customColor-biru"} shadow-xl`}>
           <div className={`p-2 mt-2 mb-2 mt-10`}>
-            <a className={`text-lg p-2 ${change ? "text-customColor-biruTua" : "text-white"} `} href="#">
+            <a className={`text-lg p-2 ${change ? "text-customColor-biruTua" : "text-white"} `} href="#home">
               Home
             </a>
           </div>
@@ -83,13 +83,13 @@ const Navbar = () => {
             </svg>
           </div>
           <div key={"1"} id="childDrop" className={`transition  flex-col mb-5 justify-center items-center w-full ${change ? "bg-customColor-biruMudaOnChange " : "bg-customColor-biruMuda"} ${showChild ? "flex" : "hidden"} `}>
-            <a key={"2"} id="child" className={`w-full text-center text-md p-2 ${change ? "text-customColor-biruTua hover:bg-customColor-hoverBiruOnChange" : "text-white hover:bg-customColor-hoverBiru"} `} href="#">
+            <a href="#home-hybrid" key={"2"} id="child" className={`w-full text-center text-md p-2 ${change ? "text-customColor-biruTua hover:bg-customColor-hoverBiruOnChange" : "text-white hover:bg-customColor-hoverBiru"} `}>
               Hybrid event
             </a>
-            <a key={"2"} id="child" className={`w-full text-center text-md p-2 ${change ? "text-customColor-biruTua hover:bg-customColor-hoverBiruOnChange" : "text-white hover:bg-customColor-hoverBiru"} `} href="#">
+            <a href="#home-virtual" key={"2"} id="child" className={`w-full text-center text-md p-2 ${change ? "text-customColor-biruTua hover:bg-customColor-hoverBiruOnChange" : "text-white hover:bg-customColor-hoverBiru"} `}>
               Virtual Event
             </a>
-            <a key={"2"} id="child" className={`w-full text-center text-md p-2 ${change ? "text-customColor-biruTua hover:bg-customColor-hoverBiruOnChange" : "text-white hover:bg-customColor-hoverBiru"} `} href="#">
+            <a href="#home-broadcast" key={"2"} id="child" className={`w-full text-center text-md p-2 ${change ? "text-customColor-biruTua hover:bg-customColor-hoverBiruOnChange" : "text-white hover:bg-customColor-hoverBiru"} `}>
               Broadcast
             </a>
           </div>
@@ -104,7 +104,9 @@ const Navbar = () => {
         </div>
       </div>
       <div id="header" className={`z-50 fixed w-full flex justify-between px-8 md:px-0 md:justify-evenly py-5 z-50 ${change && "shadow-lg"}`}>
-        <img src={change ? logoBlue : logoWhite} alt="logo" id="logo" />
+        <a href="#home">
+          <img src={change ? logoBlue : logoWhite} alt="logo" id="logo" />
+        </a>
         <div className="flex md:w-1/3 w-0">
           <ul id="navbar" className="flex h-full w-full justify-evenly items-center md:flex hidden">
             <div className={`${home ? "border-b-2 border-white hover:border-white" : "border-b-2 border-customColor-transparent hover:border-customColor-biruTua"}`}>
@@ -127,13 +129,13 @@ const Navbar = () => {
               </div>
               <div id="dropdown" className="absolute inset-y-14 align-center shadow-xl ">
                 <div className={`relative flex flex-col py-2  w-40 justify-center items-center rounded-xl  shadow-xl ${change ? "bg-customColor-biru" : "bg-white"}`}>
-                  <a className={`w-full text-center text-md p-2 ${change ? "text-white" : "text-customColor-biruTua"} hover:bg-customColor-biruMudaOnChange`} href="#">
+                  <a href="#home-hybrid" className={`w-full text-center text-md p-2 ${change ? "text-white" : "text-customColor-biruTua"} hover:bg-customColor-biruMudaOnChange`}>
                     Hybrid Event
                   </a>
-                  <a className={`w-full text-center text-md p-2 ${change ? "text-white" : "text-customColor-biruTua"} hover:bg-customColor-biruMudaOnChange`} href="#">
+                  <a href="#home-virtual" className={`w-full text-center text-md p-2 ${change ? "text-white" : "text-customColor-biruTua"} hover:bg-customColor-biruMudaOnChange`}>
                     Virtual Event
                   </a>
-                  <a className={`w-full text-center text-md p-2 ${change ? "text-white" : "text-customColor-biruTua"} hover:bg-customColor-biruMudaOnChange  `} href="#">
+                  <a href="#home-broadcast" className={`w-full text-center text-md p-2 ${change ? "text-white" : "text-customColor-biruTua"} hover:bg-customColor-biruMudaOnChange  `}>
                     Broadcast
                   </a>
                 </div>

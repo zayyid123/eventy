@@ -5,7 +5,7 @@ import img1 from "../../assets/detail-broadcast/detail-paket-broadcast.png";
 const DetailBroadcast = () => {
   return (
     <Fragment>
-      <div className="py-[120px] px-3 bg-customColor-bgWhite ">
+      <div id="detail-paket-broadcast" className="py-[120px] px-3 bg-customColor-bgWhite ">
         <div className="max-w-5xl mx-auto flex flex-col items-center">
           <div data-aos="fade-up" data-aos-duration="1000" className="flex flex-col items-center md:w-[50%] mb-[5rem] ">
             <h1 className="title-detail-broadcast text-[36px] text-customColor-biruTua mb-[30px]">Detail Paket</h1>
@@ -22,7 +22,7 @@ const DetailBroadcast = () => {
               <ul className=" list-disc ml-[25px]">
                 {broadcast.map((data, index) => {
                   return (
-                    <li key={index+data.txt} className={`text-customColor-biruTua mb-[15px] ${data.bold ? "font-semibold" : ""}`}>
+                    <li key={index + data.txt} className={`text-customColor-biruTua mb-[15px] ${data.bold ? "font-semibold" : ""}`}>
                       {data.txt}
                     </li>
                   );

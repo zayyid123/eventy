@@ -25,7 +25,7 @@ const AboutSection = () => {
             <div className="w-[225px] h-[225px] relative overflow-hidden" onMouseEnter={() => setmyPlatform(true)} onMouseLeave={() => setmyPlatform(false)}>
               <img src={platfom} alt="platform" className="mb-[2rem] width-full"></img>
               <div className="inner" style={myPlatform ? { top: "0" } : { top: "100%" }}>
-                <a href="#f" className="flex items-center text-[1.2rem] bg-customColor-biruTua text-white px-[25px] py-[10px] font-semibold rounded-[10px]" style={{ boxShadow: "0 4px 14px rgb(0 0 0 / 20%)" }}>
+                <a href="#pilihan-tampilan-virtual" className="flex items-center text-[1.2rem] bg-customColor-biruTua text-white px-[25px] py-[10px] font-semibold rounded-[10px]" style={{ boxShadow: "0 4px 14px rgb(0 0 0 / 20%)" }}>
                   Selengkapnya
                   <img src={arrow} alt="arrow" style={{ transform: "rotate(-90deg)" }} className="ml-[5px]" />
                 </a>
@@ -39,7 +39,7 @@ const AboutSection = () => {
             <div className="w-[225px] h-[225px] relative overflow-hidden" onMouseEnter={() => setmyHybird(true)} onMouseLeave={() => setmyHybird(false)}>
               <img src={hybird} alt="hybird" className="mb-[2rem] width-full"></img>
               <div className="inner" style={myHybird ? { top: "0" } : { top: "100%" }}>
-                <a href="#f" className="flex items-center text-[1.2rem] bg-customColor-biruTua text-white px-[25px] py-[10px] font-semibold rounded-[10px]" style={{ boxShadow: "0 4px 14px rgb(0 0 0 / 20%)" }}>
+                <a href="#home-hybrid" className="flex items-center text-[1.2rem] bg-customColor-biruTua text-white px-[25px] py-[10px] font-semibold rounded-[10px]" style={{ boxShadow: "0 4px 14px rgb(0 0 0 / 20%)" }}>
                   Selengkapnya
                   <img src={arrow} alt="arrow" style={{ transform: "rotate(-90deg)" }} className="ml-[5px]" />
                 </a>
@@ -53,7 +53,7 @@ const AboutSection = () => {
             <div className="w-[225px] h-[225px] relative overflow-hidden" onMouseEnter={() => setmySponsor(true)} onMouseLeave={() => setmySponsor(false)}>
               <img src={sponsor} alt="sponsor" className="mb-[2rem] width-full"></img>
               <div className="inner" style={mySponsor ? { top: "0" } : { top: "100%" }}>
-                <a href="#f" className="flex items-center text-[1.2rem] bg-customColor-biruTua text-white px-[25px] py-[10px] font-semibold rounded-[10px]" style={{ boxShadow: "0 4px 14px rgb(0 0 0 / 20%)" }}>
+                <a href="#expo-hall" className="flex items-center text-[1.2rem] bg-customColor-biruTua text-white px-[25px] py-[10px] font-semibold rounded-[10px]" style={{ boxShadow: "0 4px 14px rgb(0 0 0 / 20%)" }}>
                   Selengkapnya
                   <img src={arrow} alt="arrow" style={{ transform: "rotate(-90deg)" }} className="ml-[5px]" />
                 </a>
@@ -67,7 +67,7 @@ const AboutSection = () => {
             <div className="w-[225px] h-[225px] relative overflow-hidden" onMouseEnter={() => setmyBroadcast(true)} onMouseLeave={() => setmyBroadcast(false)}>
               <img src={broadcasting} alt="broadcast" className="mb-[2rem] width-full"></img>
               <div className="inner" style={myBroadcast ? { top: "0" } : { top: "100%" }}>
-                <a href="#f" className="flex items-center text-[1.2rem] bg-customColor-biruTua text-white px-[25px] py-[10px] font-semibold rounded-[10px]" style={{ boxShadow: "0 4px 14px rgb(0 0 0 / 20%)" }}>
+                <a href="#home-broadcast" className="flex items-center text-[1.2rem] bg-customColor-biruTua text-white px-[25px] py-[10px] font-semibold rounded-[10px]" style={{ boxShadow: "0 4px 14px rgb(0 0 0 / 20%)" }}>
                   Selengkapnya
                   <img src={arrow} alt="arrow" style={{ transform: "rotate(-90deg)" }} className="ml-[5px]" />
                 </a>

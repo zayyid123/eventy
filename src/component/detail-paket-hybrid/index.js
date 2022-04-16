@@ -6,7 +6,7 @@ import img3 from "../../assets/paket-hybrid-icon/iconHybridPackage3.svg";
 const paketHybrid = () => {
   return (
     <Fragment>
-      <div className="  bg-detailHybrid w-full items-center flex py-[100px] flex-col bg-customColor-bgWhite">
+      <div id="detail-paket-hybrid" className="  bg-detailHybrid w-full items-center flex py-[100px] flex-col bg-customColor-bgWhite">
         <div data-aos="fade-up" data-aos-duration="1000" className=" items-center flex flex-col mb-[60px]">
           <h1 className="title-detail-hybrid text-customColor-biruTua text-[36px]  mb-[30px]">Detail Paket</h1>
           <p className="text-[18px] font-medium text-customColor-biruTua text-center">Untuk mendukung pelaksanaan hybrid event, Evorty menyediakan servis sebagai berikut:</p>

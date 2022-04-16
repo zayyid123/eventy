@@ -10,7 +10,7 @@ import img3d from '../../../assets/icon-virtual-event/pilihan/img3d.png'
 
 const VirtualEventPilihan = () => {
   return (
-    <div className='bg-white text-customColor-biruTua '>
+    <div id="pilihan-tampilan-virtual" className='bg-white text-customColor-biruTua '>
       <div className='max-w-5xl mx-auto text-center'>
         <div data-aos="fade-up" data-aos-duration="1000" className='max-w-[950px] mx-auto mt-[120px]'>
           <h1 className='ve-home-title mt-[50px] mb-[30px] font-bold leading-none text-[2.2rem]'>Pilihan Tampilan Platform Virtual Event</h1>

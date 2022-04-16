@@ -1,5 +1,5 @@
-import { useState, useEffect } from 'react'
-import './style_home.css'
+import { useState, useEffect } from "react";
+import "./style_home.css";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -10,34 +10,34 @@ import "swiper/css/navigation";
 
 // import required modules
 import { Pagination } from "swiper";
-import { Controller } from 'swiper';
+import { Controller } from "swiper";
 
 // icon
-import landing from '../../../assets/icon-virtual-event/img_icon_landing.svg'
-import regis from '../../../assets/icon-virtual-event/img_icon_regis.svg'
-import lobby from '../../../assets/icon-virtual-event/img_icon_lobby.svg'
-import exhib from '../../../assets/icon-virtual-event/img_icon_exhib.svg'
-import stage from '../../../assets/icon-virtual-event/img_icon_stage.svg'
-import classrom from '../../../assets/icon-virtual-event/img_icon_class.svg'
-import features from '../../../assets/icon-virtual-event/img_icon_features.svg'
-import report from '../../../assets/icon-virtual-event/img_icon_report.svg'
-import iconArrow from '../../../assets/icon-virtual-event/arrow.svg'
+import landing from "../../../assets/icon-virtual-event/img_icon_landing.svg";
+import regis from "../../../assets/icon-virtual-event/img_icon_regis.svg";
+import lobby from "../../../assets/icon-virtual-event/img_icon_lobby.svg";
+import exhib from "../../../assets/icon-virtual-event/img_icon_exhib.svg";
+import stage from "../../../assets/icon-virtual-event/img_icon_stage.svg";
+import classrom from "../../../assets/icon-virtual-event/img_icon_class.svg";
+import features from "../../../assets/icon-virtual-event/img_icon_features.svg";
+import report from "../../../assets/icon-virtual-event/img_icon_report.svg";
+import iconArrow from "../../../assets/icon-virtual-event/arrow.svg";
 
 // img
-import imgLanding from '../../../assets/icon-virtual-event/home/landing.png'
-import imgRegis from '../../../assets/icon-virtual-event/home/regis.png'
-import imgLobby from '../../../assets/icon-virtual-event/home/lobby.png'
-import imgExhib from '../../../assets/icon-virtual-event/home/exhib.png'
-import imgStage from '../../../assets/icon-virtual-event/home/stage.png'
-import imgClass from '../../../assets/icon-virtual-event/home/class.png'
-import imgFeatures from '../../../assets/icon-virtual-event/home/features.png'
-import imgReport from '../../../assets/icon-virtual-event/home/report.png'
+import imgLanding from "../../../assets/icon-virtual-event/home/landing.png";
+import imgRegis from "../../../assets/icon-virtual-event/home/regis.png";
+import imgLobby from "../../../assets/icon-virtual-event/home/lobby.png";
+import imgExhib from "../../../assets/icon-virtual-event/home/exhib.png";
+import imgStage from "../../../assets/icon-virtual-event/home/stage.png";
+import imgClass from "../../../assets/icon-virtual-event/home/class.png";
+import imgFeatures from "../../../assets/icon-virtual-event/home/features.png";
+import imgReport from "../../../assets/icon-virtual-event/home/report.png";
 
 function getWindowDimensions() {
   const { innerWidth: width, innerHeight: height } = window;
   return {
     width,
-    height
+    height,
   };
 }
 
@@ -46,46 +46,46 @@ const VirtualEventHome = () => {
 
   const dataScroll = [
     {
-      name: 'Landing Page',
+      name: "Landing Page",
       link: imgLanding,
-      icon: landing
+      icon: landing,
     },
     {
-      name: 'Registrasi',
+      name: "Registrasi",
       link: imgRegis,
-      icon: regis
+      icon: regis,
     },
     {
-      name: 'Lobby',
+      name: "Lobby",
       link: imgLobby,
-      icon: lobby
+      icon: lobby,
     },
     {
-      name: 'Exhibition',
+      name: "Exhibition",
       link: imgExhib,
-      icon: exhib
+      icon: exhib,
     },
     {
-      name: 'Main Stage',
+      name: "Main Stage",
       link: imgStage,
-      icon: stage
+      icon: stage,
     },
     {
-      name: 'Class Room',
+      name: "Class Room",
       link: imgClass,
-      icon: classrom
+      icon: classrom,
     },
     {
-      name: 'Interaction Features',
+      name: "Interaction Features",
       link: imgFeatures,
-      icon: features
+      icon: features,
     },
     {
-      name: 'Report & Insight Data Event',
+      name: "Report & Insight Data Event",
       link: imgReport,
-      icon: report
-    }
-  ]
+      icon: report,
+    },
+  ];
 
   const [windowDimensions, setWindowDimensions] = useState(getWindowDimensions());
 
@@ -94,35 +94,35 @@ const VirtualEventHome = () => {
       setWindowDimensions(getWindowDimensions());
     }
 
-    window.addEventListener('resize', handleResize);
-    return () => window.removeEventListener('resize', handleResize);
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
   }, []);
-  
+
   return (
-    <div className='bg-home-ve bg-customColor-biru text-white '>
-      <div className='max-w-5xl mx-auto text-center pb-9'>
-        <div data-aos="fade-up" data-aos-duration="1000" className='flex flex-col'>
+    <div id="home-virtual" className="bg-home-ve bg-customColor-biru text-white ">
+      <div className="max-w-5xl mx-auto text-center pb-9">
+        <div data-aos="fade-up" data-aos-duration="1000" className="flex flex-col">
           {/* first */}
-          <div className='max-w-[850px] mx-auto'>
-            <h1 className='ve-home-title mt-[50px] mb-[30px] font-bold leading-none text-[3rem]'>Virtual Event</h1>
-            <h5 className='mb-[30px] font-semibold leading-none text-[1.3rem]'>Virtual Event by Evorty</h5>
-            <p className='mb-[50px] font-normal leading-normal text-[1.1rem]'>Menyediakan platform berbasis web sebagai partner pengelolaan virtual event untuk memberikan pengalaman yang menyenangkan dan memudahkan aktivitas peserta event.</p>
+          <div className="max-w-[850px] mx-auto">
+            <h1 className="ve-home-title mt-[50px] mb-[30px] font-bold leading-none text-[3rem]">Virtual Event</h1>
+            <h5 className="mb-[30px] font-semibold leading-none text-[1.3rem]">Virtual Event by Evorty</h5>
+            <p className="mb-[50px] font-normal leading-normal text-[1.1rem]">
+              Menyediakan platform berbasis web sebagai partner pengelolaan virtual event untuk memberikan pengalaman yang menyenangkan dan memudahkan aktivitas peserta event.
+            </p>
           </div>
 
           {/* second */}
-          <div className='flex flex-col'>
-            <h5 className=' mb-[10px] font-semibold leading-none text-[1.2rem]' >Platform Evorty meliputi:</h5>
-            <div className='relative '>
+          <div className="flex flex-col">
+            <h5 className=" mb-[10px] font-semibold leading-none text-[1.2rem]">Platform Evorty meliputi:</h5>
+            <div className="relative ">
               <Swiper
-                slidesPerView={
-                  windowDimensions.width <= 768 ? 2 : 3 
-                }
+                slidesPerView={windowDimensions.width <= 768 ? 2 : 3}
                 spaceBetween={30}
                 slidesPerGroup={1}
                 loop={true}
                 loopFillGroupWithBlank={true}
                 pagination={{
-                  el: '.my-custom-pagination-div',
+                  el: ".my-custom-pagination-div",
                   clickable: true,
                 }}
                 navigation={true}
@@ -131,60 +131,55 @@ const VirtualEventHome = () => {
                 onSwiper={setControlledSwiper}
                 className="swiper w-[87%]"
               >
-                {
-                  dataScroll.map((res, index) =>
-                    <SwiperSlide key={index+res.name} className='mb-1'>
-                      <div className='bg-white p-3 rounded-[10px] text-customColor-biruTua'>
-                        <img src={res.link} alt={res.name}/>
-                        <div className='flex justify-center'>
-                          <img className='mt-3' src={res.icon} alt={`icon ${res.name}`}/>
-                          <p className='font-semibold text-[1.rem] mt-3 ml-2'>{res.name}</p>
-                        </div>
+                {dataScroll.map((res, index) => (
+                  <SwiperSlide key={index + res.name} className="mb-1">
+                    <div className="bg-white p-3 rounded-[10px] text-customColor-biruTua">
+                      <img src={res.link} alt={res.name} />
+                      <div className="flex justify-center">
+                        <img className="mt-3" src={res.icon} alt={`icon ${res.name}`} />
+                        <p className="font-semibold text-[1.rem] mt-3 ml-2">{res.name}</p>
                       </div>
-                    </SwiperSlide>
-                  )
-                }
-                <div className='my-custom-pagination-div'/>
+                    </div>
+                  </SwiperSlide>
+                ))}
+                <div className="my-custom-pagination-div" />
               </Swiper>
-              
-              <div className='hidden xl:flex relative w-[100%] justify-between mx-auto top-[-219px]'>
+
+              <div className="hidden xl:flex relative w-[100%] justify-between mx-auto top-[-219px]">
                 {/* next */}
-                <div 
-                  className=' cursor-pointer bg-white w-[50px] h-[50px] flex justify-center items-center rounded-[50%] top-[-210px] left-[-70px]'
+                <div
+                  className=" cursor-pointer bg-white w-[50px] h-[50px] flex justify-center items-center rounded-[50%] top-[-210px] left-[-70px]"
                   onClick={() => {
                     controlledSwiper.slideNext();
                   }}
                 >
-                  <img className='w-[30px] h-[30px]' src={iconArrow} alt='icon arrow next'/>
+                  <img className="w-[30px] h-[30px]" src={iconArrow} alt="icon arrow next" />
                 </div>
 
                 {/* prev */}
-                <div 
-                  className=' cursor-pointer bg-white w-[50px] h-[50px] flex justify-center items-center rounded-[50%] origin-center rotate-180 top-[-260px] right-[-1050px]'
+                <div
+                  className=" cursor-pointer bg-white w-[50px] h-[50px] flex justify-center items-center rounded-[50%] origin-center rotate-180 top-[-260px] right-[-1050px]"
                   onClick={() => {
                     controlledSwiper.slidePrev();
                   }}
                 >
-                  <img className='w-[30px] h-[30px]' src={iconArrow} alt='icon arrow next'/>
+                  <img className="w-[30px] h-[30px]" src={iconArrow} alt="icon arrow next" />
                 </div>
               </div>
-
             </div>
           </div>
 
-          <br/>
+          <br />
           {/* third */}
           <div>
-            <button 
-              className='bg-white font-semibold text-[1.5rem] px-[30px] text-customColor-biruTua rounded-[12px] py-1'
-            >
+            <a href="#detail-paket-virtual" className="bg-white font-semibold text-[1.5rem] px-[30px] text-customColor-biruTua rounded-[12px] py-1">
               Detail Paket
-            </button>
+            </a>
           </div>
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default VirtualEventHome
+export default VirtualEventHome;
