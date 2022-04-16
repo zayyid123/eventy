@@ -18,3 +18,10 @@
     align-items: center;
     transition: .3s;
 }
+
+.bg-about {
+    background-image: url("../../assets/background/bg1.png");
+    background-repeat: no-repeat, repeat;
+    background-color: #f5f9ff;
+    background-size: 20%;
+  }

@@ -12,14 +12,14 @@ const AboutSection = () => {
   const [myBroadcast, setmyBroadcast] = useState(false);
 
   return (
-    <div>
+    <div className="bg-about">
       <div className="width-full max-w-5xl mx-auto pt-[80px] pb-[80px] text-center text-customColor-biruTua">
-        <div className="max-w-[860px] mx-auto">
+        <div data-aos="fade-up" data-aos-duration="1000" className="max-w-[860px] mx-auto">
           <h1 className="about-title mb-[25px] font-semibold leading-none text-[2rem]">Tentang Eventy</h1>
           <h5 className="mb-[25px] leading-none font-normal text-[1.2rem]">Eventy adalah expertise event management yang membantu dan mempermudah para Event Planner mencapai tujuan terlaksananya sebuah event</h5>
           <h5 className="mb-[35px] leading-none font-semibold text-[1.2rem]">Dengan bantuan teknologi dan inovasi sebagai berikut:</h5>
         </div>
-        <div className="flex flex-wrap justify-center">
+        <div data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000" className="flex flex-wrap justify-center">
           {/* platform */}
           <div className="mr-[10px] ml-[10px]">
             <div className="w-[225px] h-[225px] relative overflow-hidden" onMouseEnter={() => setmyPlatform(true)} onMouseLeave={() => setmyPlatform(false)}>
