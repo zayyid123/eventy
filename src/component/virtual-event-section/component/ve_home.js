@@ -105,13 +105,13 @@ const VirtualEventHome = () => {
           {/* first */}
           <div className='max-w-[850px] mx-auto'>
             <h1 className='ve-home-title mt-[50px] mb-[30px] font-bold leading-none text-[3rem]'>Virtual Event</h1>
-            <h5 className='mb-[30px] font-semibold leading-none text-[1.3rem]'>Virtual Event by Eventy</h5>
+            <h5 className='mb-[30px] font-semibold leading-none text-[1.3rem]'>Virtual Event by Evorty</h5>
             <p className='mb-[50px] font-normal leading-normal text-[1.1rem]'>Menyediakan platform berbasis web sebagai partner pengelolaan virtual event untuk memberikan pengalaman yang menyenangkan dan memudahkan aktivitas peserta event.</p>
           </div>
 
           {/* second */}
           <div className='flex flex-col'>
-            <h5 className=' mb-[10px] font-semibold leading-none text-[1.2rem]' >Platform Eventy meliputi:</h5>
+            <h5 className=' mb-[10px] font-semibold leading-none text-[1.2rem]' >Platform Evorty meliputi:</h5>
             <div className='relative '>
               <Swiper
                 slidesPerView={

@@ -9,7 +9,7 @@ const paketHybrid = () => {
       <div className="  bg-detailHybrid w-full items-center flex py-[100px] flex-col bg-customColor-bgWhite">
         <div className=" items-center flex flex-col mb-[60px]">
           <h1 className="title-detail-hybrid text-customColor-biruTua text-[36px]  mb-[30px]">Detail Paket</h1>
-          <p className="text-[18px] font-medium text-customColor-biruTua text-center">Untuk mendukung pelaksanaan hybrid event, Eventy menyediakan servis sebagai berikut:</p>
+          <p className="text-[18px] font-medium text-customColor-biruTua text-center">Untuk mendukung pelaksanaan hybrid event, Evorty menyediakan servis sebagai berikut:</p>
         </div>
         <div className="flex w-full md:items-stretch items-center md:flex-row flex-col justify-center md:items-center">
           <div className="flex flex-col p-[30px] bg-white w-[90%] md:w-72 mx-3 mb-[20px] rounded-xl shadow-lg">

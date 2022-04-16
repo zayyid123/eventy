@@ -154,7 +154,7 @@ const VirtualEventDetailPaket = () => {
       <div className='max-w-5xl mx-auto'>
         <div className='text-center max-w-[700px] mx-auto'>
           <h1 className='ve-home-title mt-[50px] mb-[30px] font-bold leading-none text-[2.2rem]'>Detail Paket</h1>
-          <h5 className='mb-[50px] font-normal leading-normal text-[1.1rem]'>Pilihan - pilihan menu dan fitur pada platform Eventy yang bisa Anda pilih sesuai kebutuhan dan rencana event Anda</h5>
+          <h5 className='mb-[50px] font-normal leading-normal text-[1.1rem]'>Pilihan - pilihan menu dan fitur pada platform Evorty yang bisa Anda pilih sesuai kebutuhan dan rencana event Anda</h5>
         </div>
         <div className='max-w-[1100px] mx-auto'>
           <table className='hidden lg:block m-[-4px] myTable rounded-bl-lg rounded-br-lg' >

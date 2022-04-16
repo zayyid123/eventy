@@ -12,25 +12,25 @@ const Testimonial = () => {
         {
             name: 'Alex Chandra',
             jabatan: 'Kementerian Perindustrian',
-            testimoni: 'Tim Eventy sangat suportif. Sangat membantu kami dalam mengembangkan event yang bersifat virtual. Fitur-fitur yang disediakan dalam web event pun cukup variatif dan membantu kami. Semoga kedepan bisa bekerjasama lagi dengan Eventy. Terima kasih',
+            testimoni: 'Tim Evorty sangat suportif. Sangat membantu kami dalam mengembangkan event yang bersifat virtual. Fitur-fitur yang disediakan dalam web event pun cukup variatif dan membantu kami. Semoga kedepan bisa bekerjasama lagi dengan Evorty. Terima kasih',
             logo: 'https://d1bzsjp5fzkb7z.cloudfront.net/website/default/images/logo/testimonial/img_logo_kementrian@2x.png'
         },
         {
             name: 'Neira Ardaneshwari Budiono',
             jabatan: 'Head Committee DESIRE 2021',
-            testimoni: 'Tim Eventy gercep dalam memproses perbaikan. Overall satisfied banget kok. Platform nya juga keren banget, kerjaan cepat kelar semua, responsif sama kebutuhan kita',
+            testimoni: 'Tim Evorty gercep dalam memproses perbaikan. Overall satisfied banget kok. Platform nya juga keren banget, kerjaan cepat kelar semua, responsif sama kebutuhan kita',
             logo: 'https://d1bzsjp5fzkb7z.cloudfront.net/website/default/images/logo/testimonial/img_logo_unfpa@2x.png'
         },
         {
             name: 'dr.Pradana Nurhadi Sp.U (K)',
             jabatan: 'Head Committee MCUE 14',
-            testimoni: 'Saya pribadi selaku ketua committe MCUE mengucapkan banyak terimakasih kepada Eventy, karena pihak Eventy bisa bekerja dengan baik!',
+            testimoni: 'Saya pribadi selaku ketua committe MCUE mengucapkan banyak terimakasih kepada Evorty, karena pihak Evorty bisa bekerja dengan baik!',
             logo: 'https://d1bzsjp5fzkb7z.cloudfront.net/website/default/images/logo/testimonial/img_logo_rssa@2x.png'
         },
         {
             name: 'Yohanes Peter Wijaya',
             jabatan: 'Director Orient EuroPharma Indonesia',
-            testimoni: `Please extend my big thank you to Eventy team.. So happy for today's launch.. Kudos to them.`,
+            testimoni: `Please extend my big thank you to Evorty team.. So happy for today's launch.. Kudos to them.`,
             logo: 'https://d1bzsjp5fzkb7z.cloudfront.net/website/default/images/logo/testimonial/img_logo_oep@2x.png'
         },
         {
@@ -45,7 +45,7 @@ const Testimonial = () => {
     <div className='bg-customColor-biru'>
         <div className='flex flex-col items-center justify-center max-w-5xl mx-auto pb-10'>
             <div className='text-center'>
-                <h1 className='testimonial-title mb-[80px] mt-[80px] text-white font-semibold leading-none text-[2rem]'>Testimonial Customer Eventy</h1>
+                <h1 className='testimonial-title mb-[80px] mt-[80px] text-white font-semibold leading-none text-[2rem]'>Testimonial Customer Evorty</h1>
             </div>
             <div className='w-[300px] sm:w-[500px] md:w-[600px] lg:w-[800px] text-customColor-biruTua'>
                 <Swiper

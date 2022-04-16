@@ -7,7 +7,7 @@ const HomeHybrid = () => {
         <div id="title">
           <h1 className="md:text-[46px] text-[36px] text-white mb-[30px] ">Hybrid Event</h1>
         </div>
-        <h6 className="text-white text-[20px] font-semibold mb-[30px] text-center mx-3">Hybrid Event by Eventy Solusi inovatif untuk kebutuhan event Anda</h6>
+        <h6 className="text-white text-[20px] font-semibold mb-[30px] text-center mx-3">Hybrid Event by Evorty Solusi inovatif untuk kebutuhan event Anda</h6>
         <p className="text-white text-[18px] w-[75%] text-center mb-[100px]">
           Menyediakan layanan integrasi on site dan virtual yang semakin terasa nyata. Dilengkapi dengan tampilan interaktif visual yang memanjakan pengunjung, serta membantu meningkatkan engagement yang lebih tinggi antara pengunjung dan
           penyelenggara event.

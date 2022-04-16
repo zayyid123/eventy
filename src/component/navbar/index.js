@@ -55,7 +55,7 @@ const Navbar = () => {
   }, [onChange]);
   return (
     <Fragment>
-      <div id="burgerDrop" className={`md:hidden w-full z-50 fixed  justify-center itemns-center ${show ? "translate-y-16" : "-translate-y-full"}`}>
+      <div id="burgerDrop" className={`md:hidden w-full z-50 fixed justify-between  md:justify-center itemns-center ${show ? "translate-y-16" : "-translate-y-full"}`}>
         <div id="parentBurger" className={` w-full  flex flex-col justify-center items-center ${change ? "bg-white" : "bg-customColor-biru"} shadow-xl`}>
           <div className={`p-2 mt-2 mb-2 mt-10`}>
             <a className={`text-lg p-2 ${change ? "text-customColor-biruTua" : "text-white"} `} href="#">
@@ -105,7 +105,7 @@ const Navbar = () => {
       </div>
       <div id="header" className={`z-50 fixed w-full flex justify-evenly py-5 z-50 ${change && "shadow-lg"}`}>
         <img src={change ? logoBlue : logoWhite} alt="logo" id="logo" />
-        <div className="flex w-1/3">
+        <div className="flex md:w-1/3 w-0">
           <ul id="navbar" className="flex h-full w-full justify-evenly items-center md:flex hidden">
             <div className={`${home ? "border-b-2 border-white hover:border-white" : "border-b-2 border-customColor-transparent hover:border-customColor-biruTua"}`}>
               <a className={change ? "text-customColor-biruTua " : "text-white"} href="#home">

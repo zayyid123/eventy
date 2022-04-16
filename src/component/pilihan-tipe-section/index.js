@@ -45,7 +45,7 @@ const PilihanTipe = () => {
         <div className='flex flex-col w-full items-center max-w-5xl mx-auto lg:items-center lg:flex-row-reverse'>
             <div className='w-[80%] sm:w-[60%] mb-[10px] mt-[20px] lg:w-[33.3%] lg:mt-[10rem] lg:mb-[20rem] lg:ml-[2rem]'>
                 <h1 data-aos="fade-up" data-aos-duration="1000" className='title-pilihan-tipe text-[2rem] mb-[20px] text-center lg:text-left'>Pilihan Tipe Event</h1>
-                <p data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000" className='text-center lg:text-left'>Lebih dari sekedar tampilan webinar biasa, Platform Eventy mampu mendukung pelaksanaan berbagai tipe event yang ingin Anda selenggarakan</p>
+                <p data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000" className='text-center lg:text-left'>Lebih dari sekedar tampilan webinar biasa, Platform Evorty mampu mendukung pelaksanaan berbagai tipe event yang ingin Anda selenggarakan</p>
             </div>
             <div className='hidden w-[65.666667%] lg:block'>
                 <div className='relative w-[100%] '>

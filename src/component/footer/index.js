@@ -11,7 +11,7 @@ const Footer = () => {
     <div className="bg-customColor-biru text-white text-center">
       <div className="flex flex-col items-center justify-center max-w-5xl mx-auto pt-4 pb-2">
         <div>
-          <h5><span className="font-semibold text-[1rem]">Eventy Office</span> at</h5>
+          <h5><span className="font-semibold text-[1rem]">Evorty Office</span> at</h5>
           <h5>Jalan Durian Utara III, Pedalangan, Semarang, Jawa Tengah 50268</h5>
           <h5>Senin - Sabtu 09.00 - 17.00 WIB</h5>
         </div>
@@ -19,13 +19,13 @@ const Footer = () => {
           {/* ig */}
           <div className="instagram flex rounded-[20px] items-center bg-[#5ebfff] mr-5 mb-3 pr-3">
             <img className="w-[40px]" src={instagram} alt='instagram icon'></img>
-            <h5 className="pl-2 font-semibold text-[1rem]">eventy.id</h5>
+            <h5 className="pl-2 font-semibold text-[1rem]">Evorty.id</h5>
           </div>
 
           {/* yt */}
           <div className="youtube flex rounded-[20px] items-center bg-[#5ebfff] mr-5 mb-3 pr-3">
             <img className="w-[40px]" src={youtube} alt='youtube icon'></img>
-            <h5 className="pl-2 font-semibold text-[1rem]">EVENTY</h5>
+            <h5 className="pl-2 font-semibold text-[1rem]">Evorty</h5>
           </div>
 
           {/* faq */}
@@ -34,7 +34,7 @@ const Footer = () => {
             <h5 className="pl-2 font-semibold text-[1rem]" >FAQ</h5>
           </div>
         </div>
-        <p className="font-thin text-[0.8rem]">Copyright © 2022 Eventy.id All rights reserved</p>
+        <p className="font-thin text-[0.8rem]">Copyright © 2022 Evorty.id All rights reserved</p>
       </div>
     </div>
   )
