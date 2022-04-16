@@ -15,14 +15,14 @@ const VirtualOrHybird = () => {
                 <h5 className='mb-[40px] leading-1 font-tight text-[1rem]'>Dengan berbagai kebutuhan dan tujuan terlaksananya sebuah event, Evorty menawarkan berbagai inovasi berbasis teknologi yang siap membantu mencapai tujuan pelaksanaan event Anda.</h5>
             </div>
             <div className='flex justify-center mx-auto flex-wrap'>
-                <div data-aos="fade-right" data-aos-duration="1000" className='myCard w-[300px] sm:w-[500px] text-customColor-biruTua bg-white rounded-[10px] md:max-w-[41%] m-5'>
+                <div data-aos="zoom-in" data-aos-duration="1000" className='myCard w-[300px] sm:w-[500px] text-customColor-biruTua bg-white rounded-[10px] md:max-w-[41%] m-5'>
                         <img src={ve1} alt='card 1'/>
                     <div className='p-[2rem] text-justify'>
                         <h3 className='mb-[15px] leading-none font-semibold text-[1.7rem]'>Virtual Event by Evorty</h3>
                         <p className='leading-1 font-normal text-[1rem]'>Sebuah platform event yang memiliki variasi fitur interaksi menarik, mudah digunakan bagi peserta event dan event planner, serta membantu meningkatkan value event Anda.</p>
                     </div>
                 </div>
-                <div data-aos="fade-left" data-aos-duration="1000" className='myCard w-[300px] sm:w-[500px] text-customColor-biruTua bg-white rounded-[10px] md:max-w-[41%] m-5'>
+                <div data-aos="zoom-in" data-aos-duration="1000" className='myCard w-[300px] sm:w-[500px] text-customColor-biruTua bg-white rounded-[10px] md:max-w-[41%] m-5'>
                     <img src={hb2} alt='card 2'/>
                     <div className='p-[2rem] text-justify'>
                         <h3 className='mb-[15px] leading-none font-semibold text-[1.7rem]'>Hybrid Event by Evorty</h3>
