@@ -103,7 +103,7 @@ const Navbar = () => {
           </button>
         </div>
       </div>
-      <div id="header" className={`z-50 fixed w-full flex justify-evenly py-5 z-50 ${change && "shadow-lg"}`}>
+      <div id="header" className={`z-50 fixed w-full flex justify-between px-8 md:px-0 md:justify-evenly py-5 z-50 ${change && "shadow-lg"}`}>
         <img src={change ? logoBlue : logoWhite} alt="logo" id="logo" />
         <div className="flex md:w-1/3 w-0">
           <ul id="navbar" className="flex h-full w-full justify-evenly items-center md:flex hidden">
