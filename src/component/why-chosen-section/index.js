@@ -5,14 +5,14 @@ import Imgs from "../../assets/content/checklist.svg";
 const WhyChosen = () => {
   return (
     <div id="bgPilih" className="flex flex-col justify-center items-center ">
-      <h1 id="title" className="text-[2rem] text-customColor-biruTua mb-[30px] text-center mt-[100px] text-center">
+      <h1 data-aos="fade-up" data-aos-duration="1000" id="title" className="text-[2rem] text-customColor-biruTua mb-[30px] text-center mt-[100px] text-center">
         Kenapa Pilih Platform Eventy
       </h1>
       <div className="flex md:flex-row flex-col justify-center items-center mb-[100px]">
-        <div className="p-5">
+        <div data-aos="fade-right" data-aos-duration="1000" className="p-5">
           <img src={Img} className="w-[30rem] md:mr-10 mr-0" />
         </div>
-        <div className="p-5">
+        <div data-aos="fade-left" data-aos-duration="1000" className="p-5">
           <ul className="step relative flex flex-col justify-between">
             <li>
               <div className="w-[20px] mt-1 flex items-start justify-center">
