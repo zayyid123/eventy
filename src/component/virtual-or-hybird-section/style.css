@@ -7,3 +7,10 @@
 .virtual-hybird-title{
     font-family: 'Qualy', sans-serif;
 }
+
+.bg-virtual-or-hybird {
+    background-image: url("../../assets/background/bg2.png");
+    background-repeat: no-repeat, repeat;
+    background-size: 18%;
+    background-position: 100% 0px;
+  }
