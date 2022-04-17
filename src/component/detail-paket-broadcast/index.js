@@ -22,7 +22,7 @@ const DetailBroadcast = () => {
               <ul className=" list-disc ml-[25px]">
                 {broadcast.map((data, index) => {
                   return (
-                    <li key={index} className={`text-customColor-biruTua mb-[15px] ${data.bold ? "font-semibold" : ""}`}>
+                    <li key={index+data.txt} className={`text-customColor-biruTua mb-[15px] ${data.bold ? "font-semibold" : ""}`}>
                       {data.txt}
                     </li>
                   );

@@ -15,8 +15,8 @@ const AboutSection = () => {
     <div className="bg-about">
       <div className="width-full max-w-5xl mx-auto pt-[80px] pb-[80px] text-center text-customColor-biruTua">
         <div data-aos="fade-up" data-aos-duration="1000" className="max-w-[860px] mx-auto">
-          <h1 className="about-title mb-[25px] font-semibold leading-none text-[2rem]">Tentang Eventy</h1>
-          <h5 className="mb-[25px] leading-none font-normal text-[1.2rem]">Eventy adalah expertise event management yang membantu dan mempermudah para Event Planner mencapai tujuan terlaksananya sebuah event</h5>
+          <h1 className="about-title mb-[25px] font-semibold leading-none text-[2rem]">Tentang Evorty</h1>
+          <h5 className="mb-[25px] leading-none font-normal text-[1.2rem]">Evorty adalah expertise event management yang membantu dan mempermudah para Event Planner mencapai tujuan terlaksananya sebuah event</h5>
           <h5 className="mb-[35px] leading-none font-semibold text-[1.2rem]">Dengan bantuan teknologi dan inovasi sebagai berikut:</h5>
         </div>
         <div data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000" className="flex flex-wrap justify-center">

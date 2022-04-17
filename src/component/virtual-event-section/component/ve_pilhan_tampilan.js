@@ -14,7 +14,7 @@ const VirtualEventPilihan = () => {
       <div className='max-w-5xl mx-auto text-center'>
         <div data-aos="fade-up" data-aos-duration="1000" className='max-w-[950px] mx-auto mt-[120px]'>
           <h1 className='ve-home-title mt-[50px] mb-[30px] font-bold leading-none text-[2.2rem]'>Pilihan Tampilan Platform Virtual Event</h1>
-          <h5 className='mb-[50px] font-normal leading-normal text-[1.1rem]'>Untuk mendapatkan pengalaman virtual event yang luar biasa sesuai rencana event yang Anda inginkan, Eventy menyediakan 2 tampilan platform dalam format desain 2D dan 3D 360° seperti tampilan berikut:</h5>
+          <h5 className='mb-[50px] font-normal leading-normal text-[1.1rem]'>Untuk mendapatkan pengalaman virtual event yang luar biasa sesuai rencana event yang Anda inginkan, Evorty menyediakan 2 tampilan platform dalam format desain 2D dan 3D 360° seperti tampilan berikut:</h5>
         </div>
         <div className='flex flex-wrap'>
           <div data-aos="zoom-in" data-aos-duration="1000" className='w-[100%] lg:w-1/2'>
