@@ -82,7 +82,7 @@ const PilihanTipe = () => {
                     <div className='flex flex-wrap md:justify-around sm:justify-center justify-center items-center'>
                         {
                             dataTipe.map((item, index) =>
-                                <div key={index+item.name} className='flex bg-white w-[130px] h-[130px] sm:w-[200px] sm:h-[200px] md:w-[220px] md:h-[220px] sm:m-2 m-1 items-center justify-center flex-col rounded-[10px] exhibition'>
+                                <div key={index+item.name} className='flex bg-white w-[150px] h-[150px] sm:w-[200px] sm:h-[200px] md:w-[220px] md:h-[220px] sm:m-2 m-1 items-center justify-center flex-col rounded-[10px] exhibition'>
                                     <div className='flex flex-col items-center text-customColor-biruTua text-center'>
                                         <img className='w-[50px] sm:w-[80px]' src={item.link} alt={item.name} />
                                         <h5 className='mt-[30px]' >Event {item.name}</h5>

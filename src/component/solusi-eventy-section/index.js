@@ -129,10 +129,10 @@ const SolusiEventy = () => {
               Pasca Event
             </button>
           </div>
-          <div id="cardParent" className="items-stretch flex w-full lg:flex-row justify-center items-center flex-wrap content-start   p-5">
+          <div data-aos="zoom-in" data-aos-duration="100" id="cardParent" className="items-stretch flex w-full lg:flex-row justify-center items-center flex-wrap content-start   p-5">
             {card.map((data, index) => {
               return (
-                <div data-aos="zoom-in" data-aos-duration="100" key={data.title} className="max-w-[400px] card self-auto flex flex-col lg:flex-row md:w-[30rem] bg-white rounded-xl shadow-xl mx-[9px] mb-[15px] ">
+                <div key={data.title} className="max-w-[400px] card self-auto flex flex-col lg:flex-row md:w-[30rem] bg-white rounded-xl shadow-xl mx-[9px] mb-[15px] ">
                   <div className=" flex-none  bg-customColor-biru  px-[20px] py-[25px] rounded-xl">
                     <div className="flex justify-center items-center">
                       <img src={`${data.img}`} className={`w-[80px] h-[80px]`} alt="icon" />
