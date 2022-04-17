@@ -100,58 +100,60 @@ const SolusiEventy = () => {
   return (
     <Fragment>
       <div id="bg" className={`flex flex-col justify-center items-center py-[80px] bg-customColor-bgWhite`}>
-        <h1 data-aos="fade-up" data-aos-duration="1000" id="title" className="text-[2rem] text-customColor-biruTua mb-[30px] text-center mt-[40px]">
-          Solusi dari Eventy untuk Event Anda
-        </h1>
-        <div data-aos="fade-up" data-aos-duration="1000" className="flex justify-center items-center ">
-          <button
-            onClick={() => {
-              changeShow("pra", praEvent);
-            }}
-            className={`${show === "pra" ? style.btnActive : style.btnNoActive} `}
-          >
-            Pra event
-          </button>
-          <button
-            onClick={() => {
-              changeShow("during", duringEvent);
-            }}
-            className={`${show === "during" ? style.btnActive : style.btnNoActive}`}
-          >
-            During Event
-          </button>
-          <button
-            onClick={() => {
-              changeShow("pasca", pascaEvent);
-            }}
-            className={`${show === "pasca" ? style.btnActive : style.btnNoActive}`}
-          >
-            Pasca Event
-          </button>
-        </div>
-        <div id="cardParent" className="items-stretch flex w-full lg:flex-row justify-center items-center flex-wrap content-start   p-5">
-          {card.map((data, index) => {
-            return (
-              <div data-aos="zoom-in" data-aos-duration="100" key={data.title} className="card self-auto flex flex-col lg:flex-row md:w-[30rem] bg-white rounded-xl shadow-xl mx-[9px] mb-[15px] ">
-                <div className=" flex-none  bg-customColor-biru  px-[20px] py-[25px] rounded-xl">
-                  <div className="flex justify-center items-center">
-                    <img src={`${data.img}`} className={`w-[80px] h-[80px]`} alt='icon' />
+        <div className="max-w-5xl mx-auto">
+          <h1 data-aos="fade-up" data-aos-duration="1000" id="title" className="text-[2rem] text-customColor-biruTua mb-[30px] text-center mt-[40px]">
+            Solusi dari Eventy untuk Event Anda
+          </h1>
+          <div data-aos="fade-up" data-aos-duration="1000" className="flex justify-center items-center ">
+            <button
+              onClick={() => {
+                changeShow("pra", praEvent);
+              }}
+              className={`${show === "pra" ? style.btnActive : style.btnNoActive} `}
+            >
+              Pra event
+            </button>
+            <button
+              onClick={() => {
+                changeShow("during", duringEvent);
+              }}
+              className={`${show === "during" ? style.btnActive : style.btnNoActive}`}
+            >
+              During Event
+            </button>
+            <button
+              onClick={() => {
+                changeShow("pasca", pascaEvent);
+              }}
+              className={`${show === "pasca" ? style.btnActive : style.btnNoActive}`}
+            >
+              Pasca Event
+            </button>
+          </div>
+          <div id="cardParent" className="items-stretch flex w-full lg:flex-row justify-center items-center flex-wrap content-start   p-5">
+            {card.map((data, index) => {
+              return (
+                <div data-aos="zoom-in" data-aos-duration="100" key={data.title} className="card self-auto max-w-[400px] flex flex-col lg:flex-row md:w-[30rem] bg-white rounded-xl shadow-xl mx-[9px] mb-[15px] ">
+                  <div className=" flex-none  bg-customColor-biru  px-[20px] py-[25px] rounded-xl">
+                    <div className="flex justify-center items-center">
+                      <img src={`${data.img}`} className={`w-[80px] h-[80px]`} alt='icon' />
+                    </div>
+                  </div>
+                  <div className="flex flex-col p-[25px] rounded-xl">
+                    <h6 className={`text-[16px] font-bold text-customColor-biruTua mb-[10px]`}>{data.title}</h6>
+                    {show === "pasca" && <h6 className={`text-[16px] font-bold text-customColor-biruTua mb-[10px] italic`}>{data.addons}</h6>}
+                    <p className="text-customColor-biruTua">{data.description}</p>
+                    <ul className="list-disc px-5">
+                      {show === "pasca" &&
+                        data.detail.map((dat, index) => {
+                          return <li key={index}>{dat.list}</li>;
+                        })}
+                    </ul>
                   </div>
                 </div>
-                <div className="flex flex-col p-[25px] rounded-xl">
-                  <h6 className={`text-[16px] font-bold text-customColor-biruTua mb-[10px]`}>{data.title}</h6>
-                  {show === "pasca" && <h6 className={`text-[16px] font-bold text-customColor-biruTua mb-[10px] italic`}>{data.addons}</h6>}
-                  <p className="text-customColor-biruTua">{data.description}</p>
-                  <ul className="list-disc px-5">
-                    {show === "pasca" &&
-                      data.detail.map((dat, index) => {
-                        return <li key={index}>{dat.list}</li>;
-                      })}
-                  </ul>
-                </div>
-              </div>
-            );
-          })}
+              );
+            })}
+          </div>
         </div>
       </div>
     </Fragment>
