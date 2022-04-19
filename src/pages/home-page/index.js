@@ -71,14 +71,6 @@ const Home = () => {
 
       <section className="Detail_Paket"></section>
 
-      <section className="Broadcast">
-        <HomeBroadcast />
-      </section>
-
-      <section className="Detail_Paket">
-        <DetailBroadcast />
-      </section>
-
       <section className="testimonial">
         <Testimonial />
       </section>

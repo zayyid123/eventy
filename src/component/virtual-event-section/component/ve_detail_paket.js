@@ -145,7 +145,7 @@ const VirtualEventDetailPaket = () => {
 
   return (
     <div id="detail-paket-virtual" className="bg-detail-ve bg-white text-customColor-biruTua">
-      <div className="max-w-5xl mx-auto">
+      <div className="max-w-5xl mx-5 lg:mx-auto">
         <VirtualEventComDetail />
         <br />
         <div data-aos="fade-up" data-aos-duration="1000" className="text-center max-w-[700px] mx-auto">
@@ -304,9 +304,9 @@ const VirtualEventDetailPaket = () => {
           <br />
           <br />
           <div data-aos="fade-up" data-aos-duration="1000" className="w-[240px] mx-auto">
-            <button className="bg-customColor-kuning rounded-xl hover:shadow-xl items-center">
-              <h1 className="px-7 py-3 text-center text-customColor-biruTua font-bold text-md">Lihat Penawaran Harga</h1>
-            </button>
+            <a href="https://wa.me/+6285811326661" className="bg-customColor-kuning rounded-xl hover:shadow-xl items-center">
+              <h1 className="bg-customColor-kuning rounded-xl hover:shadow-xl px-7 py-3 text-center text-customColor-biruTua font-bold text-md">Lihat Penawaran Harga</h1>
+            </a>
           </div>
 
           <br />

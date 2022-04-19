@@ -100,11 +100,11 @@ const VirtualEventHome = () => {
 
   return (
     <div id="home-virtual" className="bg-home-ve bg-customColor-biru text-white ">
-      <div className="max-w-5xl mx-auto text-center pb-9">
+      <div className="max-w-5xl mx-5 lg:mx-auto text-center pb-9">
         <div data-aos="fade-up" data-aos-duration="1000" className="flex flex-col">
           {/* first */}
           <div className="max-w-[850px] mx-auto">
-            <h1 className="ve-home-title mt-[50px] mb-[30px] font-bold leading-none text-[3rem]">Virtual Event</h1>
+            <h1 className="ve-home-title mt-[50px] mb-[30px] font-bold leading-none text-[2rem] lg:text-[3rem]">Virtual Event</h1>
             <h5 className="mb-[30px] font-semibold leading-none text-[1.3rem]">Virtual Event by Evorty</h5>
             <p className="mb-[50px] font-normal leading-normal text-[1.1rem]">
               Menyediakan platform berbasis web sebagai partner pengelolaan virtual event untuk memberikan pengalaman yang menyenangkan dan memudahkan aktivitas peserta event.

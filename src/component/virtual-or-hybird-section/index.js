@@ -9,7 +9,7 @@ const VirtualOrHybird = () => {
   return (
     <div className='bg-virtual-or-hybird bg-customColor-biru text-white'>
         <div className='width-full max-w-5xl mx-auto pt-[80px] pb-[80px] text-center'>
-            <div data-aos="fade-up" data-aos-duration="1000" className='max-w-[500px] mx-auto'>
+            <div data-aos="fade-up" data-aos-duration="1000" className='max-w-[500px] mx-5 lg:mx-auto'>
                 <h1 className='virtual-hybird-title mb-[35px] font-semibold leading-none text-[2rem]'>Virtual atau Hybrid?</h1>
                 <h5 className='mb-[15px] leading-none font-semibold text-[1.2rem]'>Pilihan event seperti apa yang ingin Anda jalankan?</h5>
                 <h5 className='mb-[40px] leading-1 font-tight text-[1rem]'>Dengan berbagai kebutuhan dan tujuan terlaksananya sebuah event, Evorty menawarkan berbagai inovasi berbasis teknologi yang siap membantu mencapai tujuan pelaksanaan event Anda.</h5>
