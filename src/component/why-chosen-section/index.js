@@ -5,7 +5,7 @@ import Imgs from "../../assets/content/checklist.svg";
 const WhyChosen = () => {
   return (
     <div id="bgPilih" className="flex flex-col justify-center items-center ">
-      <div className="max-w-5xl mx-auto">
+      <div className="max-w-5xl mx-5 lg:mx-auto">
         <h1 data-aos="fade-up" data-aos-duration="1000" id="title" className="text-[2rem] text-customColor-biruTua mb-[30px] text-center mt-[100px] text-center">
           Kenapa Pilih Platform Evorty
         </h1>

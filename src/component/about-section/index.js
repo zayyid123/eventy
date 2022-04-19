@@ -14,14 +14,14 @@ const AboutSection = () => {
   return (
     <div className="bg-about">
       <div className="width-full max-w-5xl mx-auto pt-[80px] pb-[80px] text-center text-customColor-biruTua">
-        <div data-aos="fade-up" data-aos-duration="1000" className="max-w-[860px] mx-auto">
+        <div data-aos="fade-up" data-aos-duration="1000" className="max-w-[860px] mx-5 lg:mx-auto">
           <h1 className="about-title mb-[25px] font-semibold leading-none text-[2rem]">Tentang Evorty</h1>
           <h5 className="mb-[25px] leading-none font-normal text-[1.2rem]">Evorty adalah expertise event management yang membantu dan mempermudah para Event Planner mencapai tujuan terlaksananya sebuah event</h5>
           <h5 className="mb-[35px] leading-none font-semibold text-[1.2rem]">Dengan bantuan teknologi dan inovasi sebagai berikut:</h5>
         </div>
         <div data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000" className="flex flex-wrap justify-center">
           {/* platform */}
-          <div className="mx-[10px] mb-11 w-[110px] h-[110px] sm:w-[225px] sm:h-[225px]">
+          <div className="mx-[10px] mb-11 w-[150px] h-[150px] sm:w-[225px] sm:h-[225px]">
             <div className="relative overflow-hidden" onMouseEnter={() => setmyPlatform(true)} onMouseLeave={() => setmyPlatform(false)}>
               <img src={platfom} alt="platform" className="mb-[3px] width-full"></img>
               <div className="inner" style={myPlatform ? { top: "0" } : { top: "100%" }}>
@@ -35,7 +35,7 @@ const AboutSection = () => {
           </div>
 
           {/* hybird */}
-          <div className="mx-[10px] mb-11 w-[110px] h-[110px] sm:w-[225px] sm:h-[225px]">
+          <div className="mx-[10px] mb-11 w-[150px] h-[150px] sm:w-[225px] sm:h-[225px]">
             <div className="relative overflow-hidden" onMouseEnter={() => setmyHybird(true)} onMouseLeave={() => setmyHybird(false)}>
               <img src={hybird} alt="hybird" className="mb-[3px] width-full"></img>
               <div className="inner" style={myHybird ? { top: "0" } : { top: "100%" }}>
@@ -49,7 +49,7 @@ const AboutSection = () => {
           </div>
 
           {/* sponsor */}
-          <div className="mx-[10px] mb-11 w-[110px] h-[110px] sm:w-[225px] sm:h-[225px]">
+          <div className="mx-[10px] mb-11 w-[150px] h-[150px] sm:w-[225px] sm:h-[225px]">
             <div className="relative overflow-hidden" onMouseEnter={() => setmySponsor(true)} onMouseLeave={() => setmySponsor(false)}>
               <img src={sponsor} alt="sponsor" className="mb-[3px] width-full"></img>
               <div className="inner" style={mySponsor ? { top: "0" } : { top: "100%" }}>
@@ -63,7 +63,7 @@ const AboutSection = () => {
           </div>
 
           {/* broadcast */}
-          <div className="mx-[10px] mb-11 w-[110px] h-[110px] sm:w-[225px] sm:h-[225px]">
+          <div className="mx-[10px] mb-11 w-[150px] h-[150px] sm:w-[225px] sm:h-[225px]">
             <div className="relative overflow-hidden" onMouseEnter={() => setmyBroadcast(true)} onMouseLeave={() => setmyBroadcast(false)}>
               <img src={broadcasting} alt="broadcast" className="mb-[3px] width-full"></img>
               <div className="inner" style={myBroadcast ? { top: "0" } : { top: "100%" }}>

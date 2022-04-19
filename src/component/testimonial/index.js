@@ -44,7 +44,7 @@ const Testimonial = () => {
 
   return (
     <div className="bg-customColor-biru">
-      <div className="flex flex-col items-center justify-center max-w-5xl mx-auto pb-10">
+      <div className="flex flex-col items-center justify-center max-w-5xl mx-5 lg:mx-auto pb-10">
         <div className="text-center">
           <h1 data-aos="fade-up" className="testimonial-title mb-[80px] mt-[80px] text-white font-semibold leading-none text-[2rem]">
             Testimonial Customer Evorty

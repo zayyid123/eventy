@@ -7,12 +7,12 @@ const paketHybrid = () => {
   return (
     <Fragment>
       <div id="detail-paket-hybrid" className="  bg-detailHybrid w-full items-center flex py-[100px] flex-col bg-customColor-bgWhite">
-        <div data-aos="fade-up" data-aos-duration="1000" className=" items-center flex flex-col mb-[60px]">
+        <div data-aos="fade-up" data-aos-duration="1000" className=" items-center mx-5 flex flex-col mb-[60px]">
           <h1 className="title-detail-hybrid text-customColor-biruTua text-[36px]  mb-[30px]">Detail Paket</h1>
           <p className="text-[18px] font-medium text-customColor-biruTua text-center">Untuk mendukung pelaksanaan hybrid event, Evorty menyediakan servis sebagai berikut:</p>
         </div>
         <div className="flex w-full md:items-stretch items-center md:flex-row flex-col justify-center md:items-center">
-          <div data-aos="zoom-in" data-aos-duration="1000" className="flex flex-col p-[30px] bg-white w-[90%] md:w-72 mx-3 mb-[20px] rounded-xl shadow-lg">
+          <div data-aos="zoom-in" data-aos-duration="1000" className="flex flex-col p-[30px] bg-white w-[90%] md:w-[50%] mx-3 mb-[20px] rounded-xl shadow-lg">
             <div className="flex mb-[20px]">
               <img src={img1} className="h-[36px] mr-[15px]" />
               <span className="text-[18px] font-bold text-customColor-biruTua">Package Exclusive Platform Virtual Event</span>
@@ -27,48 +27,11 @@ const paketHybrid = () => {
               })}
             </ul>
           </div>
-
-          <div data-aos="zoom-in" data-aos-duration="1000" className="flex flex-col p-[30px] bg-white w-[90%] md:w-72 mx-3 mb-[20px] rounded-xl shadow-lg">
-            <div className="flex mb-[20px]">
-              <img src={img2} className="h-[36px] mr-[15px]" />
-              <span className="text-[18px] font-bold text-customColor-biruTua">Broadcast Package / day max 6 jam</span>
-            </div>
-            <ul className=" list-disc ml-[25px]">
-              {broadcast.map((data, index) => {
-                return (
-                  <li key={index} className={`text-customColor-biruTua mb-[15px] ${data.bold ? "font-semibold" : ""}`}>
-                    {data.txt}
-                  </li>
-                );
-              })}
-            </ul>
-          </div>
-
-          <div data-aos="zoom-in" data-aos-duration="1000" className="flex flex-col p-[30px] bg-white w-[90%] md:w-72 mx-3 mb-[20px] rounded-xl shadow-lg">
-            <div className="flex mb-[20px]">
-              <img src={img3} className="h-[36px] mr-[15px]" />
-              <span className="text-[18px] font-bold text-customColor-biruTua">Package Basic Streaming Equipments/ day</span>
-            </div>
-            <ul className=" list-disc ml-[25px]">
-              {basic.map((data, index) =>
-                data.bold ? (
-                  <li key={index} className={`text-customColor-biruTua mb-[15px]`}>
-                    {data.txt}
-                    <span className="font-semibold"> {data.boldText}</span>
-                  </li>
-                ) : (
-                  <li key={index} className={`text-customColor-biruTua mb-[15px]`}>
-                    {data.txt}
-                  </li>
-                )
-              )}
-            </ul>
-          </div>
         </div>
         <div className="w-[240px] mx-auto mt-[40px]">
-          <button className="bg-customColor-kuning rounded-xl hover:shadow-xl items-center shadow-lg">
-            <h1 className="px-7 py-3 text-center text-customColor-biruTua font-bold text-md">Lihat Penawaran Harga</h1>
-          </button>
+          <a href="https://wa.me/+6285811326661" className="bg-customColor-kuning rounded-xl hover:shadow-xl items-center shadow-lg">
+            <h1 className="bg-customColor-kuning rounded-xl hover:shadow-xl items-center shadow-lg px-7 py-3 text-center text-customColor-biruTua font-bold text-md">Lihat Penawaran Harga</h1>
+          </a>
         </div>
       </div>
     </Fragment>

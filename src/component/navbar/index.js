@@ -88,9 +88,7 @@ const Navbar = () => {
             <a href="#home-virtual" key={"2"} id="child" className={`w-full text-center text-md p-2 ${change ? "text-customColor-biruTua hover:bg-customColor-hoverBiruOnChange" : "text-white hover:bg-customColor-hoverBiru"} `}>
               Virtual Event
             </a>
-            <a href="#home-broadcast" key={"2"} id="child" className={`w-full text-center text-md p-2 ${change ? "text-customColor-biruTua hover:bg-customColor-hoverBiruOnChange" : "text-white hover:bg-customColor-hoverBiru"} `}>
-              Broadcast
-            </a>
+           
           </div>
           <div className={`p-2 mb-10`}>
             <a className={`text-lg p-2 ${change ? "text-customColor-biruTua" : "text-white"} `} href="#">
@@ -134,9 +132,7 @@ const Navbar = () => {
                   <a href="#home-virtual" className={`w-full text-center text-md p-2 ${change ? "text-white" : "text-customColor-biruTua"} hover:bg-customColor-biruMudaOnChange`}>
                     Virtual Event
                   </a>
-                  <a href="#home-broadcast" className={`w-full text-center text-md p-2 ${change ? "text-white" : "text-customColor-biruTua"} hover:bg-customColor-biruMudaOnChange  `}>
-                    Broadcast
-                  </a>
+                  
                 </div>
               </div>
             </div>
@@ -147,9 +143,11 @@ const Navbar = () => {
             </div>
           </ul>
         </div>
-        <button className=" px-8 bg-customColor-kuning rounded-xl hover:shadow-xl  md:flex hidden justify-center items-center">
-          <span className="text-center text-customColor-biruTua font-bold text-md">Request Penawaran</span>
-        </button>
+        <div className="hidden md:flex">
+          <a href="https://wa.me/+6285811326661" className=" px-8 bg-customColor-kuning rounded-xl hover:shadow-xl  md:flex hidden justify-center items-center">
+            <span className="text-center text-customColor-biruTua font-bold text-md">Request Penawaran</span>
+          </a>
+        </div>
         <button
           id="burger"
           onClick={() => {

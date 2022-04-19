@@ -30,7 +30,7 @@ const HybridEvent = () => {
   return (
     <Fragment>
       <div className="flex flex-col  pt-[120px] justify-center items-center">
-        <div id="hybridAcordion" className="w-[75%] max-w-5xl mx-auto flex flex-col ">
+        <div id="hybridAcordion" className="w-[75%] max-w-5xl mx-5 lg:mx-auto flex flex-col ">
           <h1 id="title" className="text-[36px] mb-[30px]">
             Hybrid Event
           </h1>

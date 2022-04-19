@@ -44,7 +44,7 @@ const YukGabung = () => {
 
   return (
     <div className='text-customColor-biruTua bg-customColor-bgWhite'>
-        <div className='max-w-5xl mx-auto pb-[80px]'>
+        <div className='max-w-5xl mx-5 lg:mx-auto pb-[80px]'>
             <div>
                 <h1 data-aos="fade-up" data-aos-duration="1000" className='pb-[40px] pt-[80px] text-center font-semibold leading-none text-[2rem]'>Yuk Bergabung dengan Ratusan Customer Evorty</h1>
             </div>
