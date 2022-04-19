@@ -19,6 +19,7 @@ import HybridEvent from "../../component/hybrid-event";
 import PaketHybrid from "../../component/detail-paket-hybrid";
 import HomeBroadcast from "../../component/home-broadcast";
 import DetailBroadcast from "../../component/detail-paket-broadcast";
+import YukGabung from "../../component/yuk-gabung";
 const Home = () => {
   return (
     <Fragment>
@@ -82,7 +83,9 @@ const Home = () => {
         <Testimonial />
       </section>
 
-      <section className="Yuk_Bergabung"></section>
+      <section className="Yuk_Bergabung">
+        <YukGabung/>
+      </section>
     </Fragment>
   );
 };

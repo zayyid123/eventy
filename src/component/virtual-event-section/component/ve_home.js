@@ -116,7 +116,7 @@ const VirtualEventHome = () => {
             <h5 className=" mb-[10px] font-semibold leading-none text-[1.2rem]">Platform Evorty meliputi:</h5>
             <div className="relative ">
               <Swiper
-                slidesPerView={windowDimensions.width <= 768 ? 2 : 3}
+                slidesPerView={windowDimensions.width >= 990 ? 3 : windowDimensions.width >= 760 ? 2 : 1 }
                 spaceBetween={30}
                 slidesPerGroup={1}
                 loop={true}

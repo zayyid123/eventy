@@ -21,9 +21,9 @@ const AboutSection = () => {
         </div>
         <div data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000" className="flex flex-wrap justify-center">
           {/* platform */}
-          <div className="mr-[10px] ml-[10px]">
-            <div className="w-[225px] h-[225px] relative overflow-hidden" onMouseEnter={() => setmyPlatform(true)} onMouseLeave={() => setmyPlatform(false)}>
-              <img src={platfom} alt="platform" className="mb-[2rem] width-full"></img>
+          <div className="mx-[10px] mb-11 w-[110px] h-[110px] sm:w-[225px] sm:h-[225px]">
+            <div className="relative overflow-hidden" onMouseEnter={() => setmyPlatform(true)} onMouseLeave={() => setmyPlatform(false)}>
+              <img src={platfom} alt="platform" className="mb-[3px] width-full"></img>
               <div className="inner" style={myPlatform ? { top: "0" } : { top: "100%" }}>
                 <a href="#pilihan-tampilan-virtual" className="flex items-center text-[1.2rem] bg-customColor-biruTua text-white px-[25px] py-[10px] font-semibold rounded-[10px]" style={{ boxShadow: "0 4px 14px rgb(0 0 0 / 20%)" }}>
                   Selengkapnya
@@ -35,9 +35,9 @@ const AboutSection = () => {
           </div>
 
           {/* hybird */}
-          <div className="mr-[10px] ml-[10px]">
-            <div className="w-[225px] h-[225px] relative overflow-hidden" onMouseEnter={() => setmyHybird(true)} onMouseLeave={() => setmyHybird(false)}>
-              <img src={hybird} alt="hybird" className="mb-[2rem] width-full"></img>
+          <div className="mx-[10px] mb-11 w-[110px] h-[110px] sm:w-[225px] sm:h-[225px]">
+            <div className="relative overflow-hidden" onMouseEnter={() => setmyHybird(true)} onMouseLeave={() => setmyHybird(false)}>
+              <img src={hybird} alt="hybird" className="mb-[3px] width-full"></img>
               <div className="inner" style={myHybird ? { top: "0" } : { top: "100%" }}>
                 <a href="#home-hybrid" className="flex items-center text-[1.2rem] bg-customColor-biruTua text-white px-[25px] py-[10px] font-semibold rounded-[10px]" style={{ boxShadow: "0 4px 14px rgb(0 0 0 / 20%)" }}>
                   Selengkapnya
@@ -49,9 +49,9 @@ const AboutSection = () => {
           </div>
 
           {/* sponsor */}
-          <div className="mr-[10px] ml-[10px]">
-            <div className="w-[225px] h-[225px] relative overflow-hidden" onMouseEnter={() => setmySponsor(true)} onMouseLeave={() => setmySponsor(false)}>
-              <img src={sponsor} alt="sponsor" className="mb-[2rem] width-full"></img>
+          <div className="mx-[10px] mb-11 w-[110px] h-[110px] sm:w-[225px] sm:h-[225px]">
+            <div className="relative overflow-hidden" onMouseEnter={() => setmySponsor(true)} onMouseLeave={() => setmySponsor(false)}>
+              <img src={sponsor} alt="sponsor" className="mb-[3px] width-full"></img>
               <div className="inner" style={mySponsor ? { top: "0" } : { top: "100%" }}>
                 <a href="#expo-hall" className="flex items-center text-[1.2rem] bg-customColor-biruTua text-white px-[25px] py-[10px] font-semibold rounded-[10px]" style={{ boxShadow: "0 4px 14px rgb(0 0 0 / 20%)" }}>
                   Selengkapnya
@@ -63,9 +63,9 @@ const AboutSection = () => {
           </div>
 
           {/* broadcast */}
-          <div className="mr-[10px] ml-[10px]">
-            <div className="w-[225px] h-[225px] relative overflow-hidden" onMouseEnter={() => setmyBroadcast(true)} onMouseLeave={() => setmyBroadcast(false)}>
-              <img src={broadcasting} alt="broadcast" className="mb-[2rem] width-full"></img>
+          <div className="mx-[10px] mb-11 w-[110px] h-[110px] sm:w-[225px] sm:h-[225px]">
+            <div className="relative overflow-hidden" onMouseEnter={() => setmyBroadcast(true)} onMouseLeave={() => setmyBroadcast(false)}>
+              <img src={broadcasting} alt="broadcast" className="mb-[3px] width-full"></img>
               <div className="inner" style={myBroadcast ? { top: "0" } : { top: "100%" }}>
                 <a href="#home-broadcast" className="flex items-center text-[1.2rem] bg-customColor-biruTua text-white px-[25px] py-[10px] font-semibold rounded-[10px]" style={{ boxShadow: "0 4px 14px rgb(0 0 0 / 20%)" }}>
                   Selengkapnya
