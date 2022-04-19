@@ -32,19 +32,29 @@ const HomeSection = () => {
           <div className=" swipper w-[80%] md:w-[65%] lg:w-[60%] xl:w-[45%] p-5 ">
             <Swiper effect={"cards"} grabCursor={true} navigation={false} modules={[EffectCards]} className="mySwiper">
               <SwiperSlide>
-                <img src={home1} alt="coba" />
+                <div className="overflow-hidden rounded-xl">
+                  <img src={home1} alt="coba" />
+                </div>
               </SwiperSlide>
               <SwiperSlide>
-                <img src={home2} alt="coba" />
+                <div className="overflow-hidden rounded-xl">
+                  <img src={home2} alt="coba" />
+                </div>
               </SwiperSlide>
               <SwiperSlide>
-                <img src={home3} alt="coba" />
+                <div className="overflow-hidden rounded-xl">
+                  <img src={home3} alt="coba" />
+                </div>
               </SwiperSlide>
               <SwiperSlide>
-                <img src={home4} alt="coba" />
+                <div className="overflow-hidden rounded-xl">
+                  <img src={home4} alt="coba" />
+                </div>
               </SwiperSlide>
               <SwiperSlide>
-                <img src={home5} alt="coba" />
+                <div className="overflow-hidden rounded-xl">
+                  <img src={home5} alt="coba" />
+                </div>
               </SwiperSlide>
             </Swiper>
           </div>

@@ -24,9 +24,9 @@ import report from "../../../assets/icon-virtual-event/img_icon_report.svg";
 import iconArrow from "../../../assets/icon-virtual-event/arrow.svg";
 
 // img
-import imgLanding from "../../../assets/icon-virtual-event/home/landing.png";
-import imgRegis from "../../../assets/icon-virtual-event/home/regis.png";
-import imgLobby from "../../../assets/icon-virtual-event/home/lobby.png";
+import imgLanding from "../../../assets/icon-virtual-event/home/virtualConf.png";
+import imgRegis from "../../../assets/icon-virtual-event/home/expoHall.png";
+import imgLobby from "../../../assets/icon-virtual-event/home/virtualEnvi.png";
 import imgExhib from "../../../assets/icon-virtual-event/home/exhib.png";
 import imgStage from "../../../assets/icon-virtual-event/home/stage.png";
 import imgClass from "../../../assets/icon-virtual-event/home/class.png";
@@ -46,45 +46,45 @@ const VirtualEventHome = () => {
 
   const dataScroll = [
     {
-      name: "Landing Page",
+      name: "Virtual Conference",
       link: imgLanding,
       icon: landing,
     },
     {
-      name: "Registrasi",
+      name: "Expo Hall",
       link: imgRegis,
       icon: regis,
     },
     {
-      name: "Lobby",
+      name: "Virttual Environment",
       link: imgLobby,
       icon: lobby,
     },
-    {
-      name: "Exhibition",
-      link: imgExhib,
-      icon: exhib,
-    },
-    {
-      name: "Main Stage",
-      link: imgStage,
-      icon: stage,
-    },
-    {
-      name: "Class Room",
-      link: imgClass,
-      icon: classrom,
-    },
-    {
-      name: "Interaction Features",
-      link: imgFeatures,
-      icon: features,
-    },
-    {
-      name: "Report & Insight Data Event",
-      link: imgReport,
-      icon: report,
-    },
+    // {
+    //   name: "Exhibition",
+    //   link: imgExhib,
+    //   icon: exhib,
+    // },
+    // {
+    //   name: "Main Stage",
+    //   link: imgStage,
+    //   icon: stage,
+    // },
+    // {
+    //   name: "Class Room",
+    //   link: imgClass,
+    //   icon: classrom,
+    // },
+    // {
+    //   name: "Interaction Features",
+    //   link: imgFeatures,
+    //   icon: features,
+    // },
+    // {
+    //   name: "Report & Insight Data Event",
+    //   link: imgReport,
+    //   icon: report,
+    // },
   ];
 
   const [windowDimensions, setWindowDimensions] = useState(getWindowDimensions());
@@ -116,7 +116,7 @@ const VirtualEventHome = () => {
             <h5 className=" mb-[10px] font-semibold leading-none text-[1.2rem]">Platform Evorty meliputi:</h5>
             <div className="relative ">
               <Swiper
-                slidesPerView={windowDimensions.width >= 990 ? 3 : windowDimensions.width >= 760 ? 2 : 1 }
+                slidesPerView={windowDimensions.width >= 990 ? 3 : windowDimensions.width >= 760 ? 2 : 1}
                 spaceBetween={30}
                 slidesPerGroup={1}
                 loop={true}
