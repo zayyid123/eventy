@@ -4,7 +4,7 @@ module.exports = {
     extend: {
       colors: {
         customColor: {
-          biru: "#28b7fb",
+          biru: "#233657",
           kuning: "#f8ce10",
           biruTua: "#054462",
           merah: "#dc3545",

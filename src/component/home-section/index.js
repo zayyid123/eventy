@@ -4,7 +4,11 @@ import "swiper/css";
 import "swiper/css/effect-cards";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { EffectCards } from "swiper";
-
+import home1 from "../../assets/home-section/home1.png";
+import home2 from "../../assets/home-section/home2.png";
+import home3 from "../../assets/home-section/home3.png";
+import home4 from "../../assets/home-section/home4.png";
+import home5 from "../../assets/home-section/home5.png";
 const HomeSection = () => {
   return (
     <div id="home" className="bg-home-eventy w-full bg-customColor-biru text-white pt-[110px] pb-10">
@@ -28,13 +32,19 @@ const HomeSection = () => {
           <div className="swipper w-[80%] md:w-[65%] lg:w-[60%] xl:w-[45%] p-5 ">
             <Swiper effect={"cards"} grabCursor={true} navigation={false} modules={[EffectCards]} className="mySwiper">
               <SwiperSlide>
-                <img src="https://d1bzsjp5fzkb7z.cloudfront.net/website/uploads/banners/4a12d11904d69a3fee632a64b0f97271.png" alt="coba" />
+                <img src={home1} alt="coba" />
               </SwiperSlide>
               <SwiperSlide>
-                <img src="https://d1bzsjp5fzkb7z.cloudfront.net/website/uploads/banners/71e743501d1e3691f704738a58a8dbc5.png" alt="coba" />
+                <img src={home2} alt="coba" />
               </SwiperSlide>
               <SwiperSlide>
-                <img src="https://d1bzsjp5fzkb7z.cloudfront.net/website/uploads/banners/bc7e13ac2c8c0707234d6bd4fbb838bd.png" alt="coba" />
+                <img src={home3} alt="coba" />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src={home4} alt="coba" />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src={home5} alt="coba" />
               </SwiperSlide>
             </Swiper>
           </div>
