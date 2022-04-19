@@ -143,9 +143,11 @@ const Navbar = () => {
             </div>
           </ul>
         </div>
-        <a href="https://wa.me/+6285811326661" className=" px-8 bg-customColor-kuning rounded-xl hover:shadow-xl  md:flex hidden justify-center items-center">
-          <span className="text-center text-customColor-biruTua font-bold text-md">Request Penawaran</span>
-        </a>
+        <div className="hidden md:flex">
+          <a href="https://wa.me/+6285811326661" className=" px-8 bg-customColor-kuning rounded-xl hover:shadow-xl  md:flex hidden justify-center items-center">
+            <span className="text-center text-customColor-biruTua font-bold text-md">Request Penawaran</span>
+          </a>
+        </div>
         <button
           id="burger"
           onClick={() => {
