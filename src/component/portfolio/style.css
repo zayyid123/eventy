@@ -1,0 +1,25 @@
+@font-face 
+    {
+        font-family: 'Qualy'; 
+        src: url('../../assets/font/Qualy.e683c4c.ttf');
+    }
+
+.title-porto{
+    font-family: 'Qualy', sans-serif;
+}
+
+.slider_content_porto::after{
+    content: "";
+    position: absolute;
+    display: block;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,.6);
+    border-radius: 10px;
+}
+
+.mySwipperSlider{
+    width: 80% !important;
+}

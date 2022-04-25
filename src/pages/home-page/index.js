@@ -20,6 +20,7 @@ import PaketHybrid from "../../component/detail-paket-hybrid";
 import HomeBroadcast from "../../component/home-broadcast";
 import DetailBroadcast from "../../component/detail-paket-broadcast";
 import YukGabung from "../../component/yuk-gabung";
+import Portfolio from "../../component/portfolio";
 const Home = () => {
   return (
     <Fragment>
@@ -63,16 +64,12 @@ const Home = () => {
         <VirtualEvent />
       </section>
 
-      <section className="Pilihan_Tampilan"></section>
-
-      <section className="Expo_Hall"></section>
-
-      <section className="Virtual_Event"></section>
-
-      <section className="Detail_Paket"></section>
-
       <section className="testimonial">
         <Testimonial />
+      </section>
+
+      <section>
+        <Portfolio/>
       </section>
 
       <section className="Yuk_Bergabung">
