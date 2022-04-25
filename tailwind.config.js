@@ -14,6 +14,7 @@ module.exports = {
           hoverBiruOnChange: "#c8ecfc",
           hoverBiru: "#65cbfc",
           bgWhite: "#f6faff",
+          bgModal: "#2728289c",
         },
       },
     },
